@@ -31,3 +31,11 @@ chflags -f -R nouchg ~/Desktop/Dotgrid-darwin-x64/
 rm -r /Applications/Dotgrid.app
 mv -v ~/Desktop/Dotgrid-darwin-x64/Dotgrid.app /Applications/
 rm -r ~/Desktop/Dotgrid-darwin-x64/
+
+cd ~/Github/HundredRabbits/Byt/
+git pull
+electron-packager . Dotgrid --platform=darwin --arch=x64 --out ~/Desktop/ --overwrite --electron-version=1.7.5 --icon=icon.icns
+chflags -f -R nouchg ~/Desktop/Byt-darwin-x64/
+rm -r /Applications/Byt.app
+mv -v ~/Desktop/Byt-darwin-x64/Byt.app /Applications/
+rm -r ~/Desktop/Byt-darwin-x64/
