@@ -1,7 +1,7 @@
 fs = require('fs');
 var normalizedPath = require("path").join(__dirname, "collection");
 
-var html = ""
+var html = "# Themes\nThis collection of themes are meant to be used with [Ronin](https://github.com/hundredrabbits/Marabu), [Left](https://github.com/hundredrabbits/Left) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid). You are welcome to submit your own theme as Pull Requests."
 
 function build_svg(n,theme)
 {
@@ -30,7 +30,7 @@ function build_svg(n,theme)
 function build_theme(n,theme)
 {
   var name = n.split(".")[0];
-  return `## ${name}([Download](collection/${name}.thm))\n![${name}](assets/${name}.svg)\n\n`
+  return `## [${name}](collection/${name}.thm)\n![${name}](assets/${name}.svg)\n\n`
 }
 
 function is_json(text)

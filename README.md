@@ -1,45 +1,46 @@
-## barber([Download](collection/barber.thm))
-![barber](assets/barber.svg)
-
-## berry([Download](collection/berry.thm))
-![berry](assets/berry.svg)
-
-## battlestation([Download](collection/battlestation.thm))
+# Themes
+This collection of themes are meant to be used with [Ronin](https://github.com/hundredrabbits/Marabu), [Left](https://github.com/hundredrabbits/Left) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid). You are welcome to submit your own theme as Pull Requests.## [battlestation](collection/battlestation.thm)
 ![battlestation](assets/battlestation.svg)
 
-## blanc([Download](collection/blanc.thm))
+## [berry](collection/berry.thm)
+![berry](assets/berry.svg)
+
+## [barber](collection/barber.thm)
+![barber](assets/barber.svg)
+
+## [blanc](collection/blanc.thm)
 ![blanc](assets/blanc.svg)
 
-## cina([Download](collection/cina.thm))
+## [cina](collection/cina.thm)
 ![cina](assets/cina.svg)
 
-## commodore([Download](collection/commodore.thm))
+## [commodore](collection/commodore.thm)
 ![commodore](assets/commodore.svg)
 
-## gameboy([Download](collection/gameboy.thm))
+## [gameboy](collection/gameboy.thm)
 ![gameboy](assets/gameboy.svg)
 
-## mahou([Download](collection/mahou.thm))
+## [mahou](collection/mahou.thm)
 ![mahou](assets/mahou.svg)
 
-## marble([Download](collection/marble.thm))
+## [marble](collection/marble.thm)
 ![marble](assets/marble.svg)
 
-## noir([Download](collection/noir.thm))
+## [noir](collection/noir.thm)
 ![noir](assets/noir.svg)
 
-## pale([Download](collection/pale.thm))
+## [pale](collection/pale.thm)
 ![pale](assets/pale.svg)
 
-## seaweed([Download](collection/seaweed.thm))
-![seaweed](assets/seaweed.svg)
-
-## raspberry([Download](collection/raspberry.thm))
+## [raspberry](collection/raspberry.thm)
 ![raspberry](assets/raspberry.svg)
 
-## soyuz([Download](collection/soyuz.thm))
+## [seaweed](collection/seaweed.thm)
+![seaweed](assets/seaweed.svg)
+
+## [soyuz](collection/soyuz.thm)
 ![soyuz](assets/soyuz.svg)
 
-## swiss([Download](collection/swiss.thm))
+## [swiss](collection/swiss.thm)
 ![swiss](assets/swiss.svg)
 
