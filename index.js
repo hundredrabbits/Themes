@@ -1,7 +1,7 @@
 fs = require('fs');
 var normalizedPath = require("path").join(__dirname, "collection");
 
-var html = "# Themes\nThis collection of themes are meant to be used with [Ronin](https://github.com/hundredrabbits/Marabu), [Left](https://github.com/hundredrabbits/Left) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid). You are welcome to submit your own theme as Pull Requests.\n\n"
+var html = "# Themes\nThis collection of themes are meant to be used with [Ronin](https://github.com/hundredrabbits/Marabu), [Left](https://github.com/hundredrabbits/Left) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid). You are welcome to submit your own themes!\n\n"
 
 function build_svg(n,theme)
 {
