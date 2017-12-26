@@ -1,45 +1,45 @@
-## barber
+## barber([Download](collection/barber.thm))
 ![barber](assets/barber.svg)
 
-## battlestation
-![battlestation](assets/battlestation.svg)
-
-## berry
+## berry([Download](collection/berry.thm))
 ![berry](assets/berry.svg)
 
-## blanc
+## battlestation([Download](collection/battlestation.thm))
+![battlestation](assets/battlestation.svg)
+
+## blanc([Download](collection/blanc.thm))
 ![blanc](assets/blanc.svg)
 
-## cina
+## cina([Download](collection/cina.thm))
 ![cina](assets/cina.svg)
 
-## commodore
+## commodore([Download](collection/commodore.thm))
 ![commodore](assets/commodore.svg)
 
-## gameboy
+## gameboy([Download](collection/gameboy.thm))
 ![gameboy](assets/gameboy.svg)
 
-## mahou
+## mahou([Download](collection/mahou.thm))
 ![mahou](assets/mahou.svg)
 
-## marble
+## marble([Download](collection/marble.thm))
 ![marble](assets/marble.svg)
 
-## noir
+## noir([Download](collection/noir.thm))
 ![noir](assets/noir.svg)
 
-## pale
+## pale([Download](collection/pale.thm))
 ![pale](assets/pale.svg)
 
-## raspberry
-![raspberry](assets/raspberry.svg)
-
-## seaweed
+## seaweed([Download](collection/seaweed.thm))
 ![seaweed](assets/seaweed.svg)
 
-## swiss
-![swiss](assets/swiss.svg)
+## raspberry([Download](collection/raspberry.thm))
+![raspberry](assets/raspberry.svg)
 
-## soyuz
+## soyuz([Download](collection/soyuz.thm))
 ![soyuz](assets/soyuz.svg)
+
+## swiss([Download](collection/swiss.thm))
+![swiss](assets/swiss.svg)
 

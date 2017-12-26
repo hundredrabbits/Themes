@@ -30,7 +30,7 @@ function build_svg(n,theme)
 function build_theme(n,theme)
 {
   var name = n.split(".")[0];
-  return `## ${name}\n![${name}](assets/${name}.svg)\n\n`
+  return `## ${name}([Download](collection/${name}.thm))\n![${name}](assets/${name}.svg)\n\n`
 }
 
 function is_json(text)
