@@ -4,14 +4,14 @@ This collection of themes are meant to be used with [Ronin](https://github.com/h
 ## [battlestation](collection/battlestation.thm)
 ![battlestation](assets/battlestation.svg)
 
+## [blanc](collection/blanc.thm)
+![blanc](assets/blanc.svg)
+
 ## [berry](collection/berry.thm)
 ![berry](assets/berry.svg)
 
 ## [cina](collection/cina.thm)
 ![cina](assets/cina.svg)
-
-## [blanc](collection/blanc.thm)
-![blanc](assets/blanc.svg)
 
 ## [commodore](collection/commodore.thm)
 ![commodore](assets/commodore.svg)
@@ -19,11 +19,11 @@ This collection of themes are meant to be used with [Ronin](https://github.com/h
 ## [gameboy](collection/gameboy.thm)
 ![gameboy](assets/gameboy.svg)
 
-## [marble](collection/marble.thm)
-![marble](assets/marble.svg)
-
 ## [mahou](collection/mahou.thm)
 ![mahou](assets/mahou.svg)
+
+## [marble](collection/marble.thm)
+![marble](assets/marble.svg)
 
 ## [noir](collection/noir.thm)
 ![noir](assets/noir.svg)
@@ -31,14 +31,14 @@ This collection of themes are meant to be used with [Ronin](https://github.com/h
 ## [pale](collection/pale.thm)
 ![pale](assets/pale.svg)
 
-## [soyuz](collection/soyuz.thm)
-![soyuz](assets/soyuz.svg)
+## [raspberry](collection/raspberry.thm)
+![raspberry](assets/raspberry.svg)
 
 ## [seaweed](collection/seaweed.thm)
 ![seaweed](assets/seaweed.svg)
 
-## [raspberry](collection/raspberry.thm)
-![raspberry](assets/raspberry.svg)
+## [soyuz](collection/soyuz.thm)
+![soyuz](assets/soyuz.svg)
 
 ## [swiss](collection/swiss.thm)
 ![swiss](assets/swiss.svg)
