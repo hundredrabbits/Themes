@@ -3,10 +3,10 @@
     <rect width='80' height='48' fill='#30343F' rx='5' ry='5'></rect>
     <circle cx='16' cy='16' r='8' fill='white'></circle>
     <circle cx='32' cy='16' r='8' fill='#EA638C'></circle>
-    <circle cx='48' cy='16' r='8' fill='#EA638C'></circle>
+    <circle cx='48' cy='16' r='8' fill='#71788E'></circle>
     <circle cx='64' cy='16' r='8' fill='#89023E'></circle>
     <circle cx='16' cy='32' r='8' fill='#89023E'></circle>
     <circle cx='32' cy='32' r='8' fill='#89023E'></circle>
-    <circle cx='48' cy='32' r='8' fill='#EA638C'></circle>
+    <circle cx='48' cy='32' r='8' fill='#23272F'></circle>
     <circle cx='64' cy='32' r='8' fill='#FFD9DA'></circle>
   </svg>
