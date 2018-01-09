@@ -1,5 +1,7 @@
 # Themes
-This collection of themes are meant to be used with [Ronin](https://github.com/hundredrabbits/Marabu), [Left](https://github.com/hundredrabbits/Left) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid). To install a theme, simply drag the `thm` file onto the application window. You are welcome to submit your own themes to this collection!
+This collection of themes are meant to be used with [Ronin](https://github.com/hundredrabbits/Marabu), [Left](https://github.com/hundredrabbits/Left), [Donsol](https://github.com/hundredrabbits/Donsol) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid).
+## Install
+To install a theme, simply drag the `thm` file onto the application window. You are welcome to submit your own themes to this collection!
 
 ## [apollo](themes/apollo.thm)
 ![apollo](assets/apollo.svg)
@@ -10,17 +12,17 @@ This collection of themes are meant to be used with [Ronin](https://github.com/h
 ## [battlestation](themes/battlestation.thm)
 ![battlestation](assets/battlestation.svg)
 
-## [blanc](themes/blanc.thm)
-![blanc](assets/blanc.svg)
-
 ## [berry](themes/berry.thm)
 ![berry](assets/berry.svg)
 
-## [commodore](themes/commodore.thm)
-![commodore](assets/commodore.svg)
+## [blanc](themes/blanc.thm)
+![blanc](assets/blanc.svg)
 
 ## [cina](themes/cina.thm)
 ![cina](assets/cina.svg)
+
+## [commodore](themes/commodore.thm)
+![commodore](assets/commodore.svg)
 
 ## [donsol](themes/donsol.thm)
 ![donsol](assets/donsol.svg)
