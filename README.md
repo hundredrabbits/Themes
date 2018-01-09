@@ -4,6 +4,9 @@ This collection of themes are meant to be used with [Ronin](https://github.com/h
 ## [apollo](themes/apollo.thm)
 ![apollo](assets/apollo.svg)
 
+## [apollo11](themes/apollo11.thm)
+![apollo11](assets/apollo11.svg)
+
 ## [battlestation](themes/battlestation.thm)
 ![battlestation](assets/battlestation.svg)
 
@@ -13,11 +16,11 @@ This collection of themes are meant to be used with [Ronin](https://github.com/h
 ## [berry](themes/berry.thm)
 ![berry](assets/berry.svg)
 
-## [cina](themes/cina.thm)
-![cina](assets/cina.svg)
-
 ## [commodore](themes/commodore.thm)
 ![commodore](assets/commodore.svg)
+
+## [cina](themes/cina.thm)
+![cina](assets/cina.svg)
 
 ## [donsol](themes/donsol.thm)
 ![donsol](assets/donsol.svg)
@@ -34,14 +37,14 @@ This collection of themes are meant to be used with [Ronin](https://github.com/h
 ## [noir](themes/noir.thm)
 ![noir](assets/noir.svg)
 
-## [raspberry](themes/raspberry.thm)
-![raspberry](assets/raspberry.svg)
-
 ## [pale](themes/pale.thm)
 ![pale](assets/pale.svg)
 
 ## [seaweed](themes/seaweed.thm)
 ![seaweed](assets/seaweed.svg)
+
+## [raspberry](themes/raspberry.thm)
+![raspberry](assets/raspberry.svg)
 
 ## [solitaire](themes/solitaire.thm)
 ![solitaire](assets/solitaire.svg)
