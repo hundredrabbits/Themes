@@ -1,7 +1,7 @@
 fs = require('fs');
 var normalizedPath = require("path").join(__dirname, "themes");
 
-var html = "# Themes\nThis collection of themes are meant to be used with [Ronin](https://github.com/hundredrabbits/Marabu), [Left](https://github.com/hundredrabbits/Left), [Donsol](https://github.com/hundredrabbits/Donsol) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid).\n## Install\nTo install a theme, simply drag the `thm` file onto the application window. You are welcome to submit your own themes to this collection!\n\n"
+var html = "# Themes\nThis collection of themes are meant to be used with [Ronin](https://github.com/hundredrabbits/Marabu), [Left](https://github.com/hundredrabbits/Left), [Donsol](https://github.com/hundredrabbits/Donsol) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid).\n## Install\nTo install a theme, simply drag the `thm` file onto the application window.\nYou are welcome to submit your own themes to this collection!\n\n"
 
 function build_svg(n,theme)
 {
