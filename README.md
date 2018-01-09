@@ -1,45 +1,54 @@
 # Themes
 This collection of themes are meant to be used with [Ronin](https://github.com/hundredrabbits/Marabu), [Left](https://github.com/hundredrabbits/Left) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid). To install a theme, simply drag the `thm` file onto the application window. You are welcome to submit your own themes to this collection!
 
-## [battlestation](collection/battlestation.thm)
+## [apollo](themes/apollo.thm)
+![apollo](assets/apollo.svg)
+
+## [battlestation](themes/battlestation.thm)
 ![battlestation](assets/battlestation.svg)
 
-## [berry](collection/berry.thm)
-![berry](assets/berry.svg)
-
-## [cina](collection/cina.thm)
-![cina](assets/cina.svg)
-
-## [blanc](collection/blanc.thm)
+## [blanc](themes/blanc.thm)
 ![blanc](assets/blanc.svg)
 
-## [gameboy](collection/gameboy.thm)
-![gameboy](assets/gameboy.svg)
+## [berry](themes/berry.thm)
+![berry](assets/berry.svg)
 
-## [marble](collection/marble.thm)
-![marble](assets/marble.svg)
+## [cina](themes/cina.thm)
+![cina](assets/cina.svg)
 
-## [noir](collection/noir.thm)
-![noir](assets/noir.svg)
-
-## [raspberry](collection/raspberry.thm)
-![raspberry](assets/raspberry.svg)
-
-## [commodore](collection/commodore.thm)
+## [commodore](themes/commodore.thm)
 ![commodore](assets/commodore.svg)
 
-## [mahou](collection/mahou.thm)
+## [donsol](themes/donsol.thm)
+![donsol](assets/donsol.svg)
+
+## [gameboy](themes/gameboy.thm)
+![gameboy](assets/gameboy.svg)
+
+## [mahou](themes/mahou.thm)
 ![mahou](assets/mahou.svg)
 
-## [pale](collection/pale.thm)
+## [marble](themes/marble.thm)
+![marble](assets/marble.svg)
+
+## [noir](themes/noir.thm)
+![noir](assets/noir.svg)
+
+## [raspberry](themes/raspberry.thm)
+![raspberry](assets/raspberry.svg)
+
+## [pale](themes/pale.thm)
 ![pale](assets/pale.svg)
 
-## [seaweed](collection/seaweed.thm)
+## [seaweed](themes/seaweed.thm)
 ![seaweed](assets/seaweed.svg)
 
-## [soyuz](collection/soyuz.thm)
+## [solitaire](themes/solitaire.thm)
+![solitaire](assets/solitaire.svg)
+
+## [soyuz](themes/soyuz.thm)
 ![soyuz](assets/soyuz.svg)
 
-## [swiss](collection/swiss.thm)
+## [swiss](themes/swiss.thm)
 ![swiss](assets/swiss.svg)
 

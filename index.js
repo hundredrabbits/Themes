@@ -1,5 +1,5 @@
 fs = require('fs');
-var normalizedPath = require("path").join(__dirname, "collection");
+var normalizedPath = require("path").join(__dirname, "themes");
 
 var html = "# Themes\nThis collection of themes are meant to be used with [Ronin](https://github.com/hundredrabbits/Marabu), [Left](https://github.com/hundredrabbits/Left) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid). To install a theme, simply drag the `thm` file onto the application window. You are welcome to submit your own themes to this collection!\n\n"
 
@@ -30,7 +30,7 @@ function build_svg(n,theme)
 function build_theme(n,theme)
 {
   var name = n.split(".")[0];
-  return `## [${name}](collection/${name}.thm)\n![${name}](assets/${name}.svg)\n\n`
+  return `## [${name}](themes/${name}.thm)\n![${name}](assets/${name}.svg)\n\n`
 }
 
 function is_json(text)
@@ -53,7 +53,7 @@ function generate(html)
 }
 
 require("fs").readdirSync(normalizedPath).forEach(function(file_name) {
-  fs.readFile('collection/'+file_name, 'utf8', function (err,data){
+  fs.readFile('themes/'+file_name, 'utf8', function (err,data){
     if(err) { return console.log(err); }
     if(is_json(data)){
       var theme = JSON.parse(data)

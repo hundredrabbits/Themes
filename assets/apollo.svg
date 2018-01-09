@@ -1,0 +1,12 @@
+
+  <svg class="vector" width="80px" height="48px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+    <rect width='80' height='48' fill='#d6ded9' rx='5' ry='5'></rect>
+    <circle cx='16' cy='16' r='8' fill='white'></circle>
+    <circle cx='32' cy='16' r='8' fill='#e47464'></circle>
+    <circle cx='48' cy='16' r='8' fill='#cccccc'></circle>
+    <circle cx='64' cy='16' r='8' fill='#000000'></circle>
+    <circle cx='16' cy='32' r='8' fill='#ffffff'></circle>
+    <circle cx='32' cy='32' r='8' fill='#5f5353'></circle>
+    <circle cx='48' cy='32' r='8' fill='#afb7b2'></circle>
+    <circle cx='64' cy='32' r='8' fill='#e47464'></circle>
+  </svg>
