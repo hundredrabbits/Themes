@@ -1,20 +1,23 @@
 # Themes
 This collection of themes are meant to be used with [Ronin](https://github.com/hundredrabbits/Marabu), [Left](https://github.com/hundredrabbits/Left), [Donsol](https://github.com/hundredrabbits/Donsol) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid).
+
+<img src='https://raw.githubusercontent.com/hundredrabbits/Clock/master/PREVIEW.jpg' width='600'/>
+
 ## Install
 To install a theme, simply drag the `thm` file onto the application window.
 You are welcome to submit your own themes to this collection!
 
-## [apollo](themes/apollo.thm)
-![apollo](assets/apollo.svg)
-
 ## [apollo11](themes/apollo11.thm)
 ![apollo11](assets/apollo11.svg)
 
-## [berry](themes/berry.thm)
-![berry](assets/berry.svg)
+## [apollo](themes/apollo.thm)
+![apollo](assets/apollo.svg)
 
 ## [battlestation](themes/battlestation.thm)
 ![battlestation](assets/battlestation.svg)
+
+## [berry](themes/berry.thm)
+![berry](assets/berry.svg)
 
 ## [blanc](themes/blanc.thm)
 ![blanc](assets/blanc.svg)
@@ -37,11 +40,11 @@ You are welcome to submit your own themes to this collection!
 ## [marble](themes/marble.thm)
 ![marble](assets/marble.svg)
 
-## [noir](themes/noir.thm)
-![noir](assets/noir.svg)
-
 ## [pale](themes/pale.thm)
 ![pale](assets/pale.svg)
+
+## [noir](themes/noir.thm)
+![noir](assets/noir.svg)
 
 ## [raspberry](themes/raspberry.thm)
 ![raspberry](assets/raspberry.svg)
