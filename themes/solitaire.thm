@@ -1,11 +1,11 @@
 {
-  "background": "#111",
-  "f_high": "#000",
-  "f_med": "#f00",
-  "f_low": "#444",
-  "f_inv": "#ff0000",
-  "b_high": "#555",
-  "b_med": "#000",
-  "b_low": "#555",
-  "b_inv": "#91c1b5"
+  "background": "#000000",
+  "f_high": "#bf4560",
+  "f_med": "#ffffff",
+  "f_low": "#4a4a4a",
+  "f_inv": "#ffffff",
+  "b_high": "#a1a1a1",
+  "b_med": "#1f1f1f",
+  "b_low": "#232323",
+  "b_inv": "#bf4560"
 }
