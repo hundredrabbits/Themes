@@ -10,8 +10,14 @@ You are welcome to submit your own themes to this collection!
 ## [apollo](themes/apollo.thm)
 ![apollo](assets/apollo.svg)
 
+## [ash](themes/ash.thm)
+![ash](assets/ash.svg)
+
 ## [apollo11](themes/apollo11.thm)
 ![apollo11](assets/apollo11.svg)
+
+## [battlestation](themes/battlestation.thm)
+![battlestation](assets/battlestation.svg)
 
 ## [berry](themes/berry.thm)
 ![berry](assets/berry.svg)
@@ -22,23 +28,29 @@ You are welcome to submit your own themes to this collection!
 ## [cina](themes/cina.thm)
 ![cina](assets/cina.svg)
 
+## [commodore](themes/commodore.thm)
+![commodore](assets/commodore.svg)
+
 ## [donsol](themes/donsol.thm)
 ![donsol](assets/donsol.svg)
 
 ## [gameboy](themes/gameboy.thm)
 ![gameboy](assets/gameboy.svg)
 
-## [battlestation](themes/battlestation.thm)
-![battlestation](assets/battlestation.svg)
-
 ## [mahou](themes/mahou.thm)
 ![mahou](assets/mahou.svg)
 
-## [commodore](themes/commodore.thm)
-![commodore](assets/commodore.svg)
-
 ## [marble](themes/marble.thm)
 ![marble](assets/marble.svg)
+
+## [noir](themes/noir.thm)
+![noir](assets/noir.svg)
+
+## [pale](themes/pale.thm)
+![pale](assets/pale.svg)
+
+## [raspberry](themes/raspberry.thm)
+![raspberry](assets/raspberry.svg)
 
 ## [seaweed](themes/seaweed.thm)
 ![seaweed](assets/seaweed.svg)
@@ -51,13 +63,4 @@ You are welcome to submit your own themes to this collection!
 
 ## [swiss](themes/swiss.thm)
 ![swiss](assets/swiss.svg)
-
-## [noir](themes/noir.thm)
-![noir](assets/noir.svg)
-
-## [pale](themes/pale.thm)
-![pale](assets/pale.svg)
-
-## [raspberry](themes/raspberry.thm)
-![raspberry](assets/raspberry.svg)
 
