@@ -1,5 +1,5 @@
 # Themes
-This collection of themes are meant to be used with [Ronin](https://github.com/hundredrabbits/Marabu), [Left](https://github.com/hundredrabbits/Left), [Donsol](https://github.com/hundredrabbits/Donsol) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid).
+This collection of themes are meant to be used with [Ronin](https://github.com/hundredrabbits/Ronin), [Left](https://github.com/hundredrabbits/Left), [Donsol](https://github.com/hundredrabbits/Donsol) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid).
 
 <img src='https://raw.githubusercontent.com/hundredrabbits/Themes/master/PREVIEW.jpg' width='600'/>
 
