@@ -1,5 +1,5 @@
 # Themes
-This collection of themes are meant to be used with [Ronin](https://github.com/hundredrabbits/Ronin), [Left](https://github.com/hundredrabbits/Left), [Donsol](https://github.com/hundredrabbits/Donsol) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid).
+This collection of themes are meant to be used with [Ronin](https://github.com/hundredrabbits/Marabu), [Left](https://github.com/hundredrabbits/Left), [Donsol](https://github.com/hundredrabbits/Donsol) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid).
 
 <img src='https://raw.githubusercontent.com/hundredrabbits/Themes/master/PREVIEW.jpg' width='600'/>
 
@@ -7,14 +7,14 @@ This collection of themes are meant to be used with [Ronin](https://github.com/h
 To install a theme, simply drag the `thm` file onto the application window.
 You are welcome to submit your own themes to this collection!
 
-## [apollo11](themes/apollo11.thm)
-![apollo11](assets/apollo11.svg)
+## [apollo](themes/apollo.thm)
+![apollo](assets/apollo.svg)
 
 ## [ash](themes/ash.thm)
 ![ash](assets/ash.svg)
 
-## [apollo](themes/apollo.thm)
-![apollo](assets/apollo.svg)
+## [apollo11](themes/apollo11.thm)
+![apollo11](assets/apollo11.svg)
 
 ## [battlestation](themes/battlestation.thm)
 ![battlestation](assets/battlestation.svg)
@@ -25,8 +25,11 @@ You are welcome to submit your own themes to this collection!
 ## [blanc](themes/blanc.thm)
 ![blanc](assets/blanc.svg)
 
-## [commodore](themes/commodore.thm)
-![commodore](assets/commodore.svg)
+## [gameboy](themes/gameboy.thm)
+![gameboy](assets/gameboy.svg)
+
+## [mahou](themes/mahou.thm)
+![mahou](assets/mahou.svg)
 
 ## [donsol](themes/donsol.thm)
 ![donsol](assets/donsol.svg)
@@ -34,20 +37,23 @@ You are welcome to submit your own themes to this collection!
 ## [cina](themes/cina.thm)
 ![cina](assets/cina.svg)
 
-## [gameboy](themes/gameboy.thm)
-![gameboy](assets/gameboy.svg)
+## [commodore](themes/commodore.thm)
+![commodore](assets/commodore.svg)
 
 ## [marble](themes/marble.thm)
 ![marble](assets/marble.svg)
 
-## [noir](themes/noir.thm)
-![noir](assets/noir.svg)
-
-## [mahou](themes/mahou.thm)
-![mahou](assets/mahou.svg)
+## [raspberry](themes/raspberry.thm)
+![raspberry](assets/raspberry.svg)
 
 ## [robo](themes/robo.thm)
 ![robo](assets/robo.svg)
+
+## [noir](themes/noir.thm)
+![noir](assets/noir.svg)
+
+## [solitaire](themes/solitaire.thm)
+![solitaire](assets/solitaire.svg)
 
 ## [pale](themes/pale.thm)
 ![pale](assets/pale.svg)
@@ -55,14 +61,8 @@ You are welcome to submit your own themes to this collection!
 ## [seaweed](themes/seaweed.thm)
 ![seaweed](assets/seaweed.svg)
 
-## [solitaire](themes/solitaire.thm)
-![solitaire](assets/solitaire.svg)
-
 ## [soyuz](themes/soyuz.thm)
 ![soyuz](assets/soyuz.svg)
-
-## [raspberry](themes/raspberry.thm)
-![raspberry](assets/raspberry.svg)
 
 ## [swiss](themes/swiss.thm)
 ![swiss](assets/swiss.svg)

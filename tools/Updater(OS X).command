@@ -32,10 +32,27 @@ rm -r /Applications/Dotgrid.app
 mv -v ~/Desktop/Dotgrid-darwin-x64/Dotgrid.app /Applications/
 rm -r ~/Desktop/Dotgrid-darwin-x64/
 
-cd ~/Github/HundredRabbits/Byt/
+cd ~/Github/HundredRabbits/Verreciel/
 git pull
-electron-packager . Dotgrid --platform=darwin --arch=x64 --out ~/Desktop/ --overwrite --electron-version=1.7.5 --icon=icon.icns
-chflags -f -R nouchg ~/Desktop/Byt-darwin-x64/
-rm -r /Applications/Byt.app
-mv -v ~/Desktop/Byt-darwin-x64/Byt.app /Applications/
-rm -r ~/Desktop/Byt-darwin-x64/
+electron-packager . Verreciel --platform=darwin --arch=x64 --out ~/Desktop/ --overwrite --electron-version=1.7.5 --icon=icon.icns
+chflags -f -R nouchg ~/Desktop/Verreciel-darwin-x64/
+rm -r /Applications/Verreciel.app
+mv -v ~/Desktop/Verreciel-darwin-x64/Verreciel.app /Applications/
+rm -r ~/Desktop/Verreciel-darwin-x64/
+
+cd ~/Github/HundredRabbits/Oquonie/
+git pull
+electron-packager . Oquonie --platform=darwin --arch=x64 --out ~/Desktop/ --overwrite --electron-version=1.7.5 --icon=icon.icns
+chflags -f -R nouchg ~/Desktop/Oquonie-darwin-x64/
+rm -r /Applications/Oquonie.app
+mv -v ~/Desktop/Oquonie-darwin-x64/Oquonie.app /Applications/
+rm -r ~/Desktop/Oquonie-darwin-x64/
+
+cd ~/Github/HundredRabbits/Donsol/
+git pull
+electron-packager . Donsol --platform=darwin --arch=x64 --out ~/Desktop/ --overwrite --electron-version=1.7.5 --icon=icon.icns
+chflags -f -R nouchg ~/Desktop/Donsol-darwin-x64/
+rm -r /Applications/Donsol.app
+mv -v ~/Desktop/Donsol-darwin-x64/Donsol.app /Applications/
+rm -r ~/Desktop/Donsol-darwin-x64/
+
