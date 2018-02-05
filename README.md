@@ -1,5 +1,5 @@
 # Themes
-This collection of themes are meant to be used with [Ronin](https://github.com/hundredrabbits/Marabu), [Left](https://github.com/hundredrabbits/Left), [Donsol](https://github.com/hundredrabbits/Donsol) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid).
+This collection of themes are meant to be used with [Marabu](https://github.com/hundredrabbits/Marabu), [Ronin](https://github.com/hundredrabbits/Ronin), [Left](https://github.com/hundredrabbits/Left), [Donsol](https://github.com/hundredrabbits/Donsol) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid).
 
 <img src='https://raw.githubusercontent.com/hundredrabbits/Themes/master/PREVIEW.jpg' width='600'/>
 
@@ -13,14 +13,14 @@ You are welcome to submit your own themes to this collection!
 ## [apollo](themes/apollo.thm)
 ![apollo](assets/apollo.svg)
 
+## [ash](themes/ash.thm)
+![ash](assets/ash.svg)
+
 ## [battlestation](themes/battlestation.thm)
 ![battlestation](assets/battlestation.svg)
 
 ## [berry](themes/berry.thm)
 ![berry](assets/berry.svg)
-
-## [ash](themes/ash.thm)
-![ash](assets/ash.svg)
 
 ## [blanc](themes/blanc.thm)
 ![blanc](assets/blanc.svg)
@@ -58,15 +58,15 @@ You are welcome to submit your own themes to this collection!
 ## [robo](themes/robo.thm)
 ![robo](assets/robo.svg)
 
-## [solitaire](themes/solitaire.thm)
-![solitaire](assets/solitaire.svg)
-
 ## [seaweed](themes/seaweed.thm)
 ![seaweed](assets/seaweed.svg)
 
-## [swiss](themes/swiss.thm)
-![swiss](assets/swiss.svg)
+## [solitaire](themes/solitaire.thm)
+![solitaire](assets/solitaire.svg)
 
 ## [soyuz](themes/soyuz.thm)
 ![soyuz](assets/soyuz.svg)
+
+## [swiss](themes/swiss.thm)
+![swiss](assets/swiss.svg)
 

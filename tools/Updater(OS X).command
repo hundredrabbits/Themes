@@ -56,3 +56,11 @@ rm -r /Applications/Donsol.app
 mv -v ~/Desktop/Donsol-darwin-x64/Donsol.app /Applications/
 rm -r ~/Desktop/Donsol-darwin-x64/
 
+cd ~/Github/HundredRabbits/Clock/
+git pull
+electron-packager . Clock --platform=darwin --arch=x64 --out ~/Desktop/ --overwrite --electron-version=1.7.5 --icon=icon.icns
+chflags -f -R nouchg ~/Desktop/Clock-darwin-x64/
+rm -r /Applications/Clock.app
+mv -v ~/Desktop/Clock-darwin-x64/Clock.app /Applications/
+rm -r ~/Desktop/Clock-darwin-x64/
+
