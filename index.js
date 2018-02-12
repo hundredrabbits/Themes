@@ -8,7 +8,7 @@ var html = "# Themes\nThis collection of themes are meant to be used with [Marab
 //  would require to do 'theme = theme.data' in client apps
 //  idea is tradeoff for authorship and versioning, potentially multiple codepaths
 //  if, in the future, more colors are ever added
-var generate_v2 = false;
+//var generate_v2 = false;
 
 function build_svg(n,theme)
 {
@@ -87,20 +87,9 @@ require("fs").readdirSync(normalizedPath).forEach(function(file_name) {
     if (!theme ){ return console.log(err); }
     build_svg(file_name, theme)
     html += build_theme(file_name, theme)
+    theme = upgrade_with_defaults(theme);
 
-
-    if( generate_v2 )
-    {
-      var v2dir = 'themes-v2';
-
-      if ( !fs.existsSync(v2dir))
-      {
-        fs.mkdirSync(v2dir);
-      }
-      theme = upgrade_with_defaults(theme);
-      fs.writeFileSync(v2dir + path.sep + file_name, JSON.stringify(theme, null, 2));
-    }
-
+    fs.writeFileSync('themes' + path.sep + file_name, JSON.stringify(theme, null, 2));
   });
 });
 
