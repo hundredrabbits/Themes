@@ -84,10 +84,12 @@ require("fs").readdirSync(normalizedPath).forEach(function(file_name) {
     if(err) { return console.log(err); }
 
     var theme = safe_parse_json(data);
+
     if (!theme ){ return console.log(err); }
-    build_svg(file_name, theme)
-    html += build_theme(file_name, theme)
     theme = upgrade_with_defaults(theme);
+
+    build_svg(file_name, theme.data)
+    html += build_theme(file_name, theme.data)
 
     fs.writeFileSync('themes' + path.sep + file_name, JSON.stringify(theme, null, 2));
   });
