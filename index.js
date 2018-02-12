@@ -1,7 +1,14 @@
 fs = require('fs');
+path = require('path');
 var normalizedPath = require("path").join(__dirname, "themes");
 
 var html = "# Themes\nThis collection of themes are meant to be used with [Marabu](https://github.com/hundredrabbits/Marabu), [Ronin](https://github.com/hundredrabbits/Ronin), [Left](https://github.com/hundredrabbits/Left), [Donsol](https://github.com/hundredrabbits/Donsol) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid).\n\n<img src='https://raw.githubusercontent.com/hundredrabbits/Themes/master/PREVIEW.jpg' width='600'/>\n\n## Install\nTo install a theme, simply drag the `thm` file onto the application window.\nYou are welcome to submit your own themes to this collection!\n\n"
+
+//  opt in to upgrade the schema change
+//  would require to do 'theme = theme.data' in client apps
+//  idea is tradeoff for authorship and versioning, potentially multiple codepaths
+//  if, in the future, more colors are ever added
+//var generate_v2 = false;
 
 function build_svg(n,theme)
 {
@@ -24,7 +31,7 @@ function build_svg(n,theme)
   fs.writeFile("assets/"+name+".svg", html, function(err) {
     if(err) {return console.log(err);}
     console.log("Saved "+name)
-  }); 
+  });
 }
 
 function build_theme(n,theme)
@@ -33,14 +40,13 @@ function build_theme(n,theme)
   return `## [${name}](themes/${name}.thm)\n![${name}](assets/${name}.svg)\n\n`
 }
 
-function is_json(text)
+function safe_parse_json(text)
 {
   try{
-    JSON.parse(text);
-    return true;
+    return JSON.parse(text);
   }
   catch (error){
-    return false;
+    return null;
   }
 }
 
@@ -49,17 +55,41 @@ function generate(html)
   fs.writeFile("README.md", html, function(err) {
     if(err) {return console.log(err);}
     console.log("Done.")
-  }); 
+  });
+}
+
+function upgrade_with_defaults(theme)
+{
+
+  if ( !theme.hasOwnProperty("meta"))
+  {
+    //assume v1, provide default meta
+    return {"meta":
+      {
+        "author": "unknown",
+        "version": 2,
+        "revision": 1
+      },
+        "data": theme
+      }
+
+    }else{
+      //  v2 and up
+      return theme;
+    }
 }
 
 require("fs").readdirSync(normalizedPath).forEach(function(file_name) {
-  fs.readFile('themes/'+file_name, 'utf8', function (err,data){
+  fs.readFile('themes'+path.sep+file_name, 'utf8', function (err, data){
     if(err) { return console.log(err); }
-    if(is_json(data)){
-      var theme = JSON.parse(data)
-      build_svg(file_name,theme)
-      html += build_theme(file_name,theme)
-    }
+
+    var theme = safe_parse_json(data);
+    if (!theme ){ return console.log(err); }
+    build_svg(file_name, theme)
+    html += build_theme(file_name, theme)
+    theme = upgrade_with_defaults(theme);
+
+    fs.writeFileSync('themes' + path.sep + file_name, JSON.stringify(theme, null, 2));
   });
 });
 
