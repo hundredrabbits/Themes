@@ -1,11 +1,18 @@
 {
-  "background": "#111111",
-  "f_high": "#c11e1e",
-  "f_med": "#c7d4de",
-  "f_low": "#444444",
-  "f_inv": "#c7d4de",
-  "b_high": "#ffffff",
-  "b_med": "#c11e1e",
-  "b_low": "#1c1f21",
-  "b_inv": "#c11e1e"
+  "meta": {
+    "author": "unknown",
+    "version": 2,
+    "revision": 1
+  },
+  "data": {
+    "background": "#111111",
+    "f_high": "#c11e1e",
+    "f_med": "#c7d4de",
+    "f_low": "#444444",
+    "f_inv": "#c7d4de",
+    "b_high": "#ffffff",
+    "b_med": "#c11e1e",
+    "b_low": "#1c1f21",
+    "b_inv": "#c11e1e"
+  }
 }

@@ -1,11 +1,18 @@
 {
-  "background": "#000",
-  "f_high": "white",
-  "f_med": "#6ff",
-  "f_low": "#555",
-  "f_inv": "#fff",
-  "b_high": "#89023E",
-  "b_med": "#89023E",
-  "b_low": "#222",
-  "b_inv": "#F00"
+  "meta": {
+    "author": "unknown",
+    "version": 2,
+    "revision": 1
+  },
+  "data": {
+    "background": "#000",
+    "f_high": "white",
+    "f_med": "#6ff",
+    "f_low": "#555",
+    "f_inv": "#fff",
+    "b_high": "#89023E",
+    "b_med": "#89023E",
+    "b_low": "#222",
+    "b_inv": "#F00"
+  }
 }

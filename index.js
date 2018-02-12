@@ -16,16 +16,16 @@ function build_svg(n,theme)
   var size = 16
 
   var html = `
-  <svg class="vector" width="${(size * 5)}px" height="${size * 3}px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
-    <rect width='${(size * 5)}' height='${(size * 3)}' fill='${theme.background}' rx='5' ry='5'></rect>
-    <circle cx='${size * 1}' cy='${size * 1}' r='${size/2}' fill='${theme.f_high}'></circle>
-    <circle cx='${size * 2}' cy='${size * 1}' r='${size/2}' fill='${theme.f_med}'></circle>
-    <circle cx='${size * 3}' cy='${size * 1}' r='${size/2}' fill='${theme.f_low}'></circle>
-    <circle cx='${size * 4}' cy='${size * 1}' r='${size/2}' fill='${theme.f_inv}'></circle>
-    <circle cx='${size * 1}' cy='${size * 2}' r='${size/2}' fill='${theme.b_high}'></circle>
-    <circle cx='${size * 2}' cy='${size * 2}' r='${size/2}' fill='${theme.b_med}'></circle>
-    <circle cx='${size * 3}' cy='${size * 2}' r='${size/2}' fill='${theme.b_low}'></circle>
-    <circle cx='${size * 4}' cy='${size * 2}' r='${size/2}' fill='${theme.b_inv}'></circle>
+  <svg class="vector" width="${(size * 6) + size}px" height="${(size * 4)}px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+    <rect width='${(size * 6)}' height='${(size * 4)}' fill='${theme.data.background}' rx='5' ry='5'></rect>
+    <circle cx='${(size * 1.5)}' cy='${(size * 1.5)}' r='${size/2}' fill='${theme.data.f_high}'></circle>
+    <circle cx='${(size * 2.5)}' cy='${(size * 1.5)}' r='${size/2}' fill='${theme.data.f_med}'></circle>
+    <circle cx='${(size * 3.5)}' cy='${(size * 1.5)}' r='${size/2}' fill='${theme.data.f_low}'></circle>
+    <circle cx='${(size * 4.5)}' cy='${(size * 1.5)}' r='${size/2}' fill='${theme.data.f_inv}'></circle>
+    <circle cx='${(size * 1.5)}' cy='${(size * 2.5)}' r='${size/2}' fill='${theme.data.b_high}'></circle>
+    <circle cx='${(size * 2.5)}' cy='${(size * 2.5)}' r='${size/2}' fill='${theme.data.b_med}'></circle>
+    <circle cx='${(size * 3.5)}' cy='${(size * 2.5)}' r='${size/2}' fill='${theme.data.b_low}'></circle>
+    <circle cx='${(size * 4.5)}' cy='${(size * 2.5)}' r='${size/2}' fill='${theme.data.b_inv}'></circle>
   </svg>`
 
   fs.writeFile("assets/"+name+".svg", html, function(err) {
