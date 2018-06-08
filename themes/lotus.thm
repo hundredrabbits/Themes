@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "author": "neauoire",
+    "version": 2,
+    "revision": 1
+  },
+  "data": {
+    "background": "#161616",
+    "f_high": "#f0c098",
+    "f_med": "#999999",
+    "f_low": "#555555",
+    "f_inv": "#222222",
+    "b_high": "#ffffff",
+    "b_med": "#333333",
+    "b_low": "#000000",
+    "b_inv": "#f0c098"
+  }
+}

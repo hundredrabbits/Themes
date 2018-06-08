@@ -7,14 +7,14 @@ This collection of themes are meant to be used with [Marabu](https://github.com/
 To install a theme, simply drag the `thm` file onto the application window.
 You are welcome to submit your own themes to this collection!
 
-## [ash](themes/ash.thm)
-![ash](assets/ash.svg)
-
 ## [apollo](themes/apollo.thm)
 ![apollo](assets/apollo.svg)
 
 ## [apollo11](themes/apollo11.thm)
 ![apollo11](assets/apollo11.svg)
+
+## [ash](themes/ash.thm)
+![ash](assets/ash.svg)
 
 ## [battlestation](themes/battlestation.thm)
 ![battlestation](assets/battlestation.svg)
@@ -37,14 +37,17 @@ You are welcome to submit your own themes to this collection!
 ## [deuveir](themes/deuveir.thm)
 ![deuveir](assets/deuveir.svg)
 
-## [donsol](themes/donsol.thm)
-![donsol](assets/donsol.svg)
+## [deuveir](themes/deuveir.thm)
+![deuveir](assets/deuveir.svg)
 
 ## [gameboy](themes/gameboy.thm)
 ![gameboy](assets/gameboy.svg)
 
-## [deuveir](themes/deuveir.thm)
-![deuveir](assets/deuveir.svg)
+## [donsol](themes/donsol.thm)
+![donsol](assets/donsol.svg)
+
+## [lotus](themes/lotus.thm)
+![lotus](assets/lotus.svg)
 
 ## [mahou](themes/mahou.thm)
 ![mahou](assets/mahou.svg)
