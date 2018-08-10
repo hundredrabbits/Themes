@@ -8,11 +8,11 @@
     "background": "#161616",
     "f_high": "#f0c098",
     "f_med": "#999999",
-    "f_low": "#555555",
+    "f_low": "#cccccc",
     "f_inv": "#222222",
     "b_high": "#ffffff",
     "b_med": "#333333",
-    "b_low": "#000000",
+    "b_low": "#444444",
     "b_inv": "#f0c098"
   }
 }

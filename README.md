@@ -37,14 +37,11 @@ You are welcome to submit your own themes to this collection!
 ## [deuveir](themes/deuveir.thm)
 ![deuveir](assets/deuveir.svg)
 
-## [deuveir](themes/deuveir.thm)
-![deuveir](assets/deuveir.svg)
+## [donsol](themes/donsol.thm)
+![donsol](assets/donsol.svg)
 
 ## [gameboy](themes/gameboy.thm)
 ![gameboy](assets/gameboy.svg)
-
-## [donsol](themes/donsol.thm)
-![donsol](assets/donsol.svg)
 
 ## [lotus](themes/lotus.thm)
 ![lotus](assets/lotus.svg)
@@ -67,11 +64,11 @@ You are welcome to submit your own themes to this collection!
 ## [robo](themes/robo.thm)
 ![robo](assets/robo.svg)
 
-## [seaweed](themes/seaweed.thm)
-![seaweed](assets/seaweed.svg)
-
 ## [solitaire](themes/solitaire.thm)
 ![solitaire](assets/solitaire.svg)
+
+## [seaweed](themes/seaweed.thm)
+![seaweed](assets/seaweed.svg)
 
 ## [soyuz](themes/soyuz.thm)
 ![soyuz](assets/soyuz.svg)
