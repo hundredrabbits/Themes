@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "author": "aeriform",
+    "version": 2,
+    "revision": 1
+  },
+  "data": {
+    "background": "#000062",
+    "f_high": "#ffff1c",
+    "f_med": "#ffff1c",
+    "f_low": "#ffff1c",
+    "f_inv": "#ffff1c",
+    "b_high": "#ffff1c",
+    "b_med": "#ff0000",
+    "b_low": "#000062",
+    "b_inv": "#000062"
+  }
+}
