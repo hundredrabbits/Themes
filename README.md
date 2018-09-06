@@ -2,7 +2,7 @@
 This collection of themes are meant to be used with [Marabu](https://github.com/hundredrabbits/Marabu), [Ronin](https://github.com/hundredrabbits/Ronin), [Left](https://github.com/hundredrabbits/Left), [Donsol](https://github.com/hundredrabbits/Donsol) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid).
 
 This collection may also be used with
-[Tape] by Aeriform(https://aeriform.itch.io/tape)
+[Tape](https://aeriform.itch.io/tape) by Aeriform.
 
 <img src='https://raw.githubusercontent.com/hundredrabbits/Themes/master/PREVIEW.jpg' width='600'/>
 
