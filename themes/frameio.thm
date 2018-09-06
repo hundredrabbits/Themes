@@ -7,9 +7,9 @@
   "data": {
     "background": "#333848",
     "f_high": "#edeef2",
-    "f_med": "#394153",
-    "f_low": "#edeef2",
-    "f_inv": "#394153",
+    "f_med": "#5b52fe",
+    "f_low": "#394153",
+    "f_inv": "#5b52fe",
     "b_high": "#edeef2",
     "b_med": "#394153",
     "b_low": "#394153",
