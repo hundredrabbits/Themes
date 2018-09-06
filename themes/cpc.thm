@@ -9,10 +9,10 @@
     "f_high": "#ffff1c",
     "f_med": "#ffff1c",
     "f_low": "#ffff1c",
-    "f_inv": "#ffff1c",
+    "f_inv": "#000062",
     "b_high": "#ffff1c",
-    "b_med": "#ff0000",
+    "b_med": "#000062",
     "b_low": "#000062",
-    "b_inv": "#000062"
+    "b_inv": "#ff0000"
   }
 }

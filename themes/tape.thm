@@ -6,13 +6,13 @@
   },
   "data": {
     "background": "#dad7cd",
-    "f_high": "#d9d6cc",
-    "f_med": "#dad7cd",
+    "f_high": "#43423e",
+    "f_med": "#43423e",
     "f_low": "#e5e3dc",
-    "f_inv": "#dad7cd",
+    "f_inv": "#43423e",
     "b_high": "#e5e3dc",
     "b_med": "#eb3f48",
-    "b_low": "#dad7cd",
+    "b_low": "#e5e3dc",
     "b_inv": "#43423e"
   }
 }
