@@ -11,8 +11,8 @@
     "f_low": "#e5e3dc",
     "f_inv": "#43423e",
     "b_high": "#e5e3dc",
-    "b_med": "#eb3f48",
+    "b_med": "#43423e",
     "b_low": "#e5e3dc",
-    "b_inv": "#43423e"
+    "b_inv": "#eb3f48"
   }
 }
