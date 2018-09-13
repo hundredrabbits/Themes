@@ -29,16 +29,16 @@ This repo documents the specs of the theme format used across the Hundred Rabbit
 
 ### Usage
 
-To implement support, you need to add the [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js), and the [theme.css](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/links/theme.css). The CSS is where the style is applies onto the html elements.
+To implement support, you need to add the [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js), and the [theme.css](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/links/theme.css). The CSS is where the style is applies onto the html elements. The **inverted style** is used, for example, on buttons or selection highlights.
 
 - `background`, Background, general.
 - `f_high`, Foreground, high-contrast.
 - `f_med`, Foreground, medium-contrast.
 - `f_low`, Foreground, low-contrast.
 - `f_inv`, Foreground, inverted.
-- `f_high`, Background, high-contrast.
-- `f_med`, Background, medium-contrast.
-- `f_low`, Background, low-contrast.
+- `b_high`, Background, high-contrast.
+- `b_med`, Background, medium-contrast.
+- `b_low`, Background, low-contrast.
 - `f_inv`, Background, inverted.
 
 ## Supported Applications
