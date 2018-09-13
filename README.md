@@ -1,113 +1,57 @@
 # Themes
-This collection of themes are meant to be used with [Marabu](https://github.com/hundredrabbits/Marabu), [Ronin](https://github.com/hundredrabbits/Ronin), [Left](https://github.com/hundredrabbits/Left), [Donsol](https://github.com/hundredrabbits/Donsol) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid).
+
+This repo documents the specs of the theme format used across the Hundred Rabbits' [ecosystem](https://github.com/hundredrabbits). You can also implement the theme support into your own apps. See the [Collection](COLLECTION.md) for all available themes.
+
+<img src='https://raw.githubusercontent.com/hundredrabbits/Themes/master/PREVIEW.jpg' width='600'/>
+
+## Specs
+
+```
+{
+  "meta": {
+    "author": "aeriform",
+    "version": 2,
+    "revision": 1
+  },
+  "data": {
+    "background": "#d4d3c0",
+    "b_high": "#ede6d4",
+    "b_med": "#534e41",
+    "b_low": "#dfddca",
+    "b_inv": "#cc295c"
+    "f_high": "#534e41",
+    "f_med": "#534e41",
+    "f_low": "#ede6d4",
+    "f_inv": "#cc295c",
+  }
+}
+```
+
+### Usage
+
+To implement support, you need to add the [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js), and the [theme.css](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/links/theme.css). The CSS is where the style is applies onto the html elements.
+
+- `background`, Background, general.
+- `f_high`, Foreground, high-contrast.
+- `f_med`, Foreground, medium-contrast.
+- `f_low`, Foreground, low-contrast.
+- `f_inv`, Foreground, inverted.
+- `f_high`, Background, high-contrast.
+- `f_med`, Background, medium-contrast.
+- `f_low`, Background, low-contrast.
+- `f_inv`, Background, inverted.
+
+## Supported Applications
+
+- [Marabu](https://github.com/hundredrabbits/Marabu), music tool.
+- [Left](https://github.com/hundredrabbits/Left), writing tool.
+- [Dotgrid](https://github.com/hundredrabbits/Dotgrid), vector tool.
+- [Donsol](https://github.com/hundredrabbits/Donsol), card game.
 
 This collection may also be used with
 [Tape](https://aeriform.itch.io/tape) by Aeriform.
 
-<img src='https://raw.githubusercontent.com/hundredrabbits/Themes/master/PREVIEW.jpg' width='600'/>
+## Extras
 
-## Install
-To install a theme, simply drag the `thm` file onto the application window.
 You are welcome to submit your own themes to this collection!
 
-## [2b](themes/2b.thm)
-![2b](assets/2b.svg)
-
-## [apollo](themes/apollo.thm)
-![apollo](assets/apollo.svg)
-
-## [apollo11](themes/apollo11.thm)
-![apollo11](assets/apollo11.svg)
-
-## [ash](themes/ash.thm)
-![ash](assets/ash.svg)
-
-## [battlestation](themes/battlestation.thm)
-![battlestation](assets/battlestation.svg)
-
-## [berry](themes/berry.thm)
-![berry](assets/berry.svg)
-
-## [blanc](themes/blanc.thm)
-![blanc](assets/blanc.svg)
-
-## [cina](themes/cina.thm)
-![cina](assets/cina.svg)
-
-## [coal](themes/coal.thm)
-![coal](assets/coal.svg)
-
-## [commodore](themes/commodore.thm)
-![commodore](assets/commodore.svg)
-
-## [cpc](themes/cpc.thm)
-![cpc](assets/cpc.svg)
-
-## [deuveir](themes/deuveir.thm)
-![deuveir](assets/deuveir.svg)
-
-## [donsol](themes/donsol.thm)
-![donsol](assets/donsol.svg)
-
-## [frameio](themes/frameio.thm)
-![frameio](assets/frameio.svg)
-
-## [gameboy](themes/gameboy.thm)
-![gameboy](assets/gameboy.svg)
-
-## [lotus](themes/lotus.thm)
-![lotus](assets/lotus.svg)
-
-## [mahou](themes/mahou.thm)
-![mahou](assets/mahou.svg)
-
-## [marble](themes/marble.thm)
-![marble](assets/marble.svg)
-
-## [merveilles](themes/merveilles.thm)
-![merveilles](assets/merveilles.svg)
-
-## [noir](themes/noir.thm)
-![noir](assets/noir.svg)
-
-## [pale](themes/pale.thm)
-![pale](assets/pale.svg)
-
-## [pico8](themes/pico8.thm)
-![pico8](assets/pico8.svg)
-
-## [ramma](themes/ramma.thm)
-![ramma](assets/ramma.svg)
-
-## [raspberry](themes/raspberry.thm)
-![raspberry](assets/raspberry.svg)
-
-## [robo](themes/robo.thm)
-![robo](assets/robo.svg)
-
-## [solitaire](themes/solitaire.thm)
-![solitaire](assets/solitaire.svg)
-
-## [seaweed](themes/seaweed.thm)
-![seaweed](assets/seaweed.svg)
-
-## [snow](themes/snow.thm)
-![snow](assets/snow.svg)
-
-## [soft](themes/soft.thm)
-![soft](assets/soft.svg)
-
-## [soyuz](themes/soyuz.thm)
-![soyuz](assets/soyuz.svg)
-
-## [swiss](themes/swiss.thm)
-![swiss](assets/swiss.svg)
-
-## [tape](themes/tape.thm)
-![tape](assets/tape.svg)
-
-## [tape_se](themes/tape_se.thm)
-![tape_se](assets/tape_se.svg)
-
-## [toxik](themes/toxik.thm)
-![toxik](assets/toxik.svg)

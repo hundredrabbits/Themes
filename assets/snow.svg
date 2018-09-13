@@ -6,7 +6,7 @@
     <circle cx='56' cy='24' r='8' fill='#fbfbfb'></circle>
     <circle cx='72' cy='24' r='8' fill='#545454'></circle>
     <circle cx='24' cy='40' r='8' fill='#fbfbfb'></circle>
-    <circle cx='40' cy='40' r='8' fill='#ed2c3e'></circle>
+    <circle cx='40' cy='40' r='8' fill='#545454'></circle>
     <circle cx='56' cy='40' r='8' fill='#f5f5f5'></circle>
-    <circle cx='72' cy='40' r='8' fill='#545454'></circle>
+    <circle cx='72' cy='40' r='8' fill='#ed2c3e'></circle>
   </svg>

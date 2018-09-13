@@ -2,7 +2,7 @@ fs = require('fs');
 path = require('path');
 var normalizedPath = require("path").join(__dirname, "themes");
 
-var html = "# Themes\nThis collection of themes are meant to be used with [Marabu](https://github.com/hundredrabbits/Marabu), [Ronin](https://github.com/hundredrabbits/Ronin), [Left](https://github.com/hundredrabbits/Left), [Donsol](https://github.com/hundredrabbits/Donsol) and [Dotgrid](https://github.com/hundredrabbits/Dotgrid).\n\n<img src='https://raw.githubusercontent.com/hundredrabbits/Themes/master/PREVIEW.jpg' width='600'/>\n\n## Install\nTo install a theme, simply drag the `thm` file onto the application window.\nYou are welcome to submit your own themes to this collection!\n\n"
+var html = "# Collection\n\n"
 
 //  opt in to upgrade the schema change
 //  would require to do 'theme = theme.data' in client apps
@@ -52,7 +52,7 @@ function safe_parse_json(text)
 
 function generate(html)
 {
-  fs.writeFile("README.md", html, function(err) {
+  fs.writeFile("COLLECTION.md", html, function(err) {
     if(err) {return console.log(err);}
     console.log("Done.")
   });
