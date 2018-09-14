@@ -1,7 +1,6 @@
 body { font-size:14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:30px; transition: background-color 500ms;}
 table { margin-bottom:30px; }
-table tr th { padding:5px; text-align: left; font-weight: bold; }
-table tr td { padding:5px; transition: background-color 250ms, color 250ms; }
+table tr td { padding:5px 10px; transition: background-color 250ms, color 250ms; font-weight: bold; font-size:12px; }
 
-#print { font-family: courier; font-size:12px; }
+#print { font-family: courier; font-size:12px; padding:5px 10px; }
 #print b { font-weight: bold }

@@ -41,7 +41,7 @@
           html += `<b>f_inv</b> b_inv <i>${theme.active.f_inv}</i>\n`
           count += 1
         }
-        el.innerHTML = html+`\n<i>${count} conflicts</i>`;
+        el.innerHTML = count > 0 ? html+`\n<i>${count} conflicts</i>` : '';
       }
     </script>
   </body>
