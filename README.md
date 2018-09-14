@@ -6,7 +6,7 @@ Documentation for the theme specs used across the Hundred Rabbits' [Ecosystem](h
 
 ## Setup
 
-**Install Themes support**, by adding [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) to your header. 
+**Install Theme support** by adding [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) to your header. 
 
 ```
 <script type="text/javascript" src="scripts/lib/theme.js"></script>
@@ -46,9 +46,14 @@ The theme holds only 9 different colors.
 
 The theme file format is a SVG file. The [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) loader will look for colors found in the element's `id` attributes.
 
+### Example
+
 ![mahou](themes/mahou.svg)
 
+### Content
+
 ```
+<!-- Author: Unknown -->
 <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
   <rect width='96' height='64'  id='background' fill='#E0B1CB'></rect>
   <!-- Foreground -->
