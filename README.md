@@ -8,22 +8,15 @@ This repo documents the specs of the theme format used across the Hundred Rabbit
 
 ```
 {
-  "meta": {
-    "author": "aeriform",
-    "version": 2,
-    "revision": 1
-  },
-  "data": {
-    "background": "#d4d3c0",
-    "b_high": "#ede6d4",
-    "b_med": "#534e41",
-    "b_low": "#dfddca",
-    "b_inv": "#cc295c"
-    "f_high": "#534e41",
-    "f_med": "#534e41",
-    "f_low": "#ede6d4",
-    "f_inv": "#cc295c",
-  }
+  "background": "#d4d3c0",
+  "b_high": "#ede6d4",
+  "b_med": "#534e41",
+  "b_low": "#dfddca",
+  "b_inv": "#cc295c"
+  "f_high": "#534e41",
+  "f_med": "#534e41",
+  "f_low": "#ede6d4",
+  "f_inv": "#cc295c" 
 }
 ```
 
@@ -40,6 +33,30 @@ To implement support, you need to add the [theme.js](https://github.com/hundredr
 - `b_med`, Background, medium-contrast.
 - `b_low`, Background, low-contrast.
 - `f_inv`, Background, inverted.
+
+## Setup
+
+Install Themes support, by adding [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) to your header. 
+
+```
+<script type="text/javascript" src="scripts/lib/theme.js"></script>
+```
+
+Define the overrides in a [dedicated theme.css](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/links/theme.css) by adding this line to your header.
+
+```
+<link rel="stylesheet" type="text/css" href="links/theme.css"/>
+```
+
+Initiate the Theme class by adding these lines somewhere in your project.
+
+```
+const theme = new Theme();
+theme.install(document.body);
+theme.start();
+```
+
+This will add a handler that will detect files dragged onto the project, and append a `<style>` element to your document's body element with the theme overrides.
 
 ## Supported Applications
 
