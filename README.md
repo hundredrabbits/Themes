@@ -1,19 +1,24 @@
 # Themes
 
-This repo documents the specs of the theme format used across the Hundred Rabbits' [ecosystem](https://github.com/hundredrabbits). You can also implement the theme support into your own apps. See the [Collection](COLLECTION.md) for all available themes.
+Documentation for the theme specs used across the Hundred Rabbits' [Ecosystem](https://github.com/hundredrabbits). You can also implement the theme support into your own apps.
 
 <img src='https://raw.githubusercontent.com/hundredrabbits/Themes/master/PREVIEW.jpg' width='600'/>
 
 ## Setup
 
-Install Themes support, by adding [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) to your header. Define the overrides in a [dedicated theme.css](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/links/theme.css) by adding this line to your header.
+**Install Themes support**, by adding [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) to your header. 
 
 ```
 <script type="text/javascript" src="scripts/lib/theme.js"></script>
+```
+
+**Define Theme overrides** in a [dedicated theme.css](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/links/theme.css) by adding this line to your header.
+
+```
 <link rel="stylesheet" type="text/css" href="links/theme.css"/>
 ```
 
-Initiate the Theme class by adding these lines somewhere in your project.
+**Initiate Theme support** by adding these lines somewhere in your project.
 
 ```
 let theme = new Theme();
@@ -21,7 +26,7 @@ theme.install(document.body);
 theme.start();
 ```
 
-**Theme.js** will add a handler that will detect files dragged onto the project, and append a `<style>` element to your document's body element with the theme overrides.
+This will add an handler that will detect files dragged onto the project window, and append a `<style>` element to your document's body element with the theme overrides.
 
 ## Specs
 
