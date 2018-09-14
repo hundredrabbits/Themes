@@ -2,8 +2,8 @@
   <rect width='96' height='64'  id='background' fill='#E0B1CB'></rect>
   <!-- Foreground -->
   <circle cx='24' cy='24' r='8' id='f_high' fill='#231942'></circle>
-  <circle cx='40' cy='24' r='8' id='f_med' fill='#5E548E'></circle>
-  <circle cx='56' cy='24' r='8' id='f_low' fill='#BE95C4'></circle>
+  <circle cx='40' cy='24' r='8' id='f_med' fill='#48416d'></circle>
+  <circle cx='56' cy='24' r='8' id='f_low' fill='#917296'></circle>
   <circle cx='72' cy='24' r='8' id='f_inv' fill='#E0B1CB'></circle>
   <!-- Background -->
   <circle cx='24' cy='40' r='8' id='b_high' fill='#FFFFFF'></circle>
