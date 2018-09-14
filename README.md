@@ -46,7 +46,7 @@ The theme holds only 9 different colors.
 
 The theme file format is a SVG file. The [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) loader will look for colors found in the element's `id` attributes.
 
-<img src='https://raw.githubusercontent.com/hundredrabbits/Themes/master/themes/mahou.theme.svg'/>
+![mahou](themes/mahou.svg)
 
 ```
 <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
