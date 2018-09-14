@@ -71,7 +71,17 @@ The theme file format is a SVG file. The [theme.js](https://github.com/hundredra
 
 ## Collection
 
-![mahou](themes/mahou.svg) ![apollo](themes/apollo.svg) ![lotus](themes/lotus.svg)
+### Dark
+
+![apollo](themes/apollo.svg) ![ramma](themes/ramma.svg) ![battlestation](themes/battlestation.svg) ![deuveir](themes/deuveir.svg) ![lotus](themes/lotus.svg)
+
+### Light
+
+![coal](themes/coal.svg) ![marble](themes/marble.svg) ![snow](themes/snow.svg) ![swiss](themes/swiss.svg) ![tape](themes/tape.svg)
+
+### Color
+
+![mahou](themes/mahou.svg) ![pico8](themes/pico8.svg) ![frameio](themes/frameio.svg) ![berry](themes/berry.svg) ![seaweed](themes/seaweed.svg)
 
 ## Supported Applications
 
