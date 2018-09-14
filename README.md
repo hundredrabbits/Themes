@@ -69,6 +69,10 @@ The theme file format is a SVG file. The [theme.js](https://github.com/hundredra
 </svg>
 ```
 
+## Collection
+
+| ![mahou](themes/mahou.svg) | ![apollo](themes/apollo.svg) | ![lotus](themes/lotus.svg) |
+
 ## Supported Applications
 
 - [Marabu](https://github.com/hundredrabbits/Marabu), music tool.
