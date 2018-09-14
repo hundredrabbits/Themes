@@ -1,0 +1,6 @@
+body { font-size:14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:30px;}
+table { margin-bottom:30px; }
+table tr td { padding:5px; }
+
+#print { font-family: courier; font-size:12px; }
+#print b { font-weight: bold }

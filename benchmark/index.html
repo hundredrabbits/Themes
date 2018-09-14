@@ -1,0 +1,44 @@
+<html>
+  <head>    
+    <script type="text/javascript" src="scripts/lib/theme.js"></script>
+    <link rel="stylesheet" type="text/css" href="links/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="links/main.css"/>
+    <link rel="stylesheet" type="text/css" href="links/theme.css"/>    
+    <title>Theme Benchmark</title>
+  </head>
+  <body>
+    <div class='wrapper'>
+      <table>
+        <tr><td class='f_high'>hello</td><td class='b_low f_high'>hello</td><td class='b_med f_high'>hello</td><td class='b_high f_high'>hello</td></tr>
+        <tr><td class='f_med'>hello</td> <td class='b_low f_med'>hello</td> <td class='b_med f_med'>hello</td> <td class='b_high f_med'>hello</td></tr>
+        <tr><td class='f_low'>hello</td> <td class='b_low f_low'>hello</td> <td class='b_med f_low'>hello</td> <td class='b_high f_low'>hello</td></tr>
+        <tr><td class='f_inv'>hello</td> <td class='b_low f_inv'>hello</td> <td class='b_med f_inv'>hello</td> <td class='b_high f_inv'>hello</td></tr>
+      </table>
+    </div>
+    <pre id='print'></pre>
+    <script type="text/javascript">
+      let theme = new Theme()
+      theme.install(document.body,refresh)
+      theme.start()
+
+      function refresh()
+      {
+        let el = document.getElementById('print')
+        let html = ""
+        let count = 0
+        for(let fid in theme.active){
+          if(fid.substr(0,1) != "f"){ continue; }
+          let fc = theme.active[fid]
+          for(let bid in theme.active){
+            if(bid.substr(0,1) != "b"){ continue; }
+            let bc = theme.active[bid]
+            if(fc != bc){ continue; }
+            html += `<b>${fid}</b>(${fc}) -> ${bid}(${bc})\n`
+            count += 1
+          }
+        }
+        el.innerHTML = html+`\n${count} conflicts`;
+      }
+    </script>
+  </body>
+</html>
