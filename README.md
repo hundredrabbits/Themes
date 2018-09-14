@@ -4,25 +4,26 @@ This repo documents the specs of the theme format used across the Hundred Rabbit
 
 <img src='https://raw.githubusercontent.com/hundredrabbits/Themes/master/PREVIEW.jpg' width='600'/>
 
+## Setup
+
+Install Themes support, by adding [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) to your header. Define the overrides in a [dedicated theme.css](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/links/theme.css) by adding this line to your header.
+
+```
+<script type="text/javascript" src="scripts/lib/theme.js"></script>
+<link rel="stylesheet" type="text/css" href="links/theme.css"/>
+```
+
+Initiate the Theme class by adding these lines somewhere in your project.
+
+```
+let theme = new Theme();
+theme.install(document.body);
+theme.start();
+```
+
+**Theme.js** will add a handler that will detect files dragged onto the project, and append a `<style>` element to your document's body element with the theme overrides.
+
 ## Specs
-
-```
-{
-  "background": "#d4d3c0",
-  "b_high": "#ede6d4",
-  "b_med": "#534e41",
-  "b_low": "#dfddca",
-  "b_inv": "#cc295c"
-  "f_high": "#534e41",
-  "f_med": "#534e41",
-  "f_low": "#ede6d4",
-  "f_inv": "#cc295c" 
-}
-```
-
-### Usage
-
-To implement support, you need to add the [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js), and the [theme.css](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/links/theme.css). The CSS is where the style is applies onto the html elements. The **inverted style** is used, for example, on buttons or selection highlights.
 
 - `background`, Background, general.
 - `f_high`, Foreground, high-contrast.
@@ -34,29 +35,25 @@ To implement support, you need to add the [theme.js](https://github.com/hundredr
 - `b_low`, Background, low-contrast.
 - `f_inv`, Background, inverted.
 
-## Setup
+## The Theme Format
 
-Install Themes support, by adding [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) to your header. 
-
-```
-<script type="text/javascript" src="scripts/lib/theme.js"></script>
-```
-
-Define the overrides in a [dedicated theme.css](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/links/theme.css) by adding this line to your header.
+The theme file format is an SVG file. The [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) loader will look for colors found in the element's `id` attributes.
 
 ```
-<link rel="stylesheet" type="text/css" href="links/theme.css"/>
+<svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+  <rect width='96' height='64'  id='background' fill='#E0B1CB'></rect>
+  <!-- Foreground -->
+  <circle cx='24' cy='24' r='8' id='f_high' fill='#231942'></circle>
+  <circle cx='40' cy='24' r='8' id='f_med' fill='#5E548E'></circle>
+  <circle cx='56' cy='24' r='8' id='f_low' fill='#BE95C4'></circle>
+  <circle cx='72' cy='24' r='8' id='f_inv' fill='#E0B1CB'></circle>
+  <!-- Background -->
+  <circle cx='24' cy='40' r='8' id='b_high' fill='#FFFFFF'></circle>
+  <circle cx='40' cy='40' r='8' id='b_med' fill='#5E548E'></circle>
+  <circle cx='56' cy='40' r='8' id='b_low' fill='#BE95C4'></circle>
+  <circle cx='72' cy='40' r='8' id='b_inv' fill='#9F86C0'></circle>
+</svg>
 ```
-
-Initiate the Theme class by adding these lines somewhere in your project.
-
-```
-const theme = new Theme();
-theme.install(document.body);
-theme.start();
-```
-
-This will add a handler that will detect files dragged onto the project, and append a `<style>` element to your document's body element with the theme overrides.
 
 ## Supported Applications
 
