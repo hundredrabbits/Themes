@@ -12,7 +12,7 @@ Documentation for the theme specs used across the Hundred Rabbits' [Ecosystem](h
 <script type="text/javascript" src="scripts/lib/theme.js"></script>
 ```
 
-**Define Theme overrides** in a [dedicated theme.css](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/links/theme.css) by adding this line to your header.
+**Define Theme overrides** in a dedicated [theme.css](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/links/theme.css) by adding this line to your header.
 
 ```
 <link rel="stylesheet" type="text/css" href="links/theme.css"/>
@@ -28,9 +28,11 @@ theme.start();
 
 This will add an handler that will detect files dragged onto the project window, and append a `<style>` element to your document's body element with the theme overrides.
 
-## Specs
+## Format Specs
 
-- `background`, Background, general.
+The theme holds only 9 different colors.
+
+- `background`, Application Background.
 - `f_high`, Foreground, high-contrast.
 - `f_med`, Foreground, medium-contrast.
 - `f_low`, Foreground, low-contrast.
@@ -42,7 +44,9 @@ This will add an handler that will detect files dragged onto the project window,
 
 ## The Theme Format
 
-The theme file format is an SVG file. The [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) loader will look for colors found in the element's `id` attributes.
+The theme file format is a SVG file. The [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) loader will look for colors found in the element's `id` attributes.
+
+<img src='https://raw.githubusercontent.com/hundredrabbits/Themes/master/themes/mahou.theme.svg'/>
 
 ```
 <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
