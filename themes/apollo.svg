@@ -1,34 +1,13 @@
 <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
-    <rect width='96' height='64'  fill='#29272b'></rect>
-    <!-- Foreground -->
-    <circle cx='24' cy='24' r='8' fill='#ffffff'></circle>
-    <circle cx='40' cy='24' r='8' fill='#e47464'></circle>
-    <circle cx='56' cy='24' r='8' fill='#66606b'></circle>
-    <circle cx='72' cy='24' r='8' fill='#000000'></circle>
-    <!-- Background -->
-    <circle cx='24' cy='40' r='8' fill='#ffffff'></circle>
-    <circle cx='40' cy='40' r='8' fill='#5f5353'></circle>
-    <circle cx='56' cy='40' r='8' fill='#47424a'></circle>
-    <circle cx='72' cy='40' r='8' fill='#e47464'></circle>
+  <rect width='96' height='64'  id='background' fill='#29272b'></rect>
+  <!-- Foreground -->
+  <circle cx='24' cy='24' r='8' id='f_high' fill='#ffffff'></circle>
+  <circle cx='40' cy='24' r='8' id='f_med' fill='#e47464'></circle>
+  <circle cx='56' cy='24' r='8' id='f_low' fill='#66606b'></circle>
+  <circle cx='72' cy='24' r='8' id='f_inv' fill='#000000'></circle>
+  <!-- Background -->
+  <circle cx='24' cy='40' r='8' id='b_high' fill='#ffffff'></circle>
+  <circle cx='40' cy='40' r='8' id='b_med' fill='#5f5353'></circle>
+  <circle cx='56' cy='40' r='8' id='b_low' fill='#47424a'></circle>
+  <circle cx='72' cy='40' r='8' id='b_inv' fill='#e47464'></circle>
 </svg>
-
-<!-- THEME
-{
-  "meta": {
-    "author": "unknown",
-    "version": 2,
-    "revision": 1
-  },
-  "data": {
-    "background": "#29272b",
-    "f_high": "#ffffff",
-    "f_med": "#e47464",
-    "f_low": "#66606b",
-    "f_inv": "#000000",
-    "b_high": "#ffffff",
-    "b_med": "#5f5353",
-    "b_low": "#47424a",
-    "b_inv": "#e47464"
-  }
-}
--->
