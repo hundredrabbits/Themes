@@ -1,6 +1,6 @@
 # Themes
 
-Documentation for the theme specs used across the Hundred Rabbits' [Ecosystem](https://github.com/hundredrabbits). You can also implement the theme support into your own apps.
+This repository is for the application themes and tools used across the [Hundred Rabbits](http://100r.co) [Ecosystem](https://github.com/hundredrabbits). 
 
 <img src='https://raw.githubusercontent.com/hundredrabbits/Themes/master/PREVIEW.jpg' width='600'/>
 
@@ -18,7 +18,7 @@ Documentation for the theme specs used across the Hundred Rabbits' [Ecosystem](h
 <link rel="stylesheet" type="text/css" href="links/theme.css"/>
 ```
 
-**Initiate Theme support** by adding these lines somewhere in your project.
+**Initiate Theme support** by adding these lines somewhere in your project. The `Theme({background:#f00,..})` class takes a default theme as param, the `.install(element,callback)` method takes an element to append the `<style>` element to, and a param for a method called when the theme has been updated.
 
 ```
 let theme = new Theme();
@@ -30,7 +30,7 @@ This will add an handler that will detect files dragged onto the project window,
 
 ## Format Specs
 
-The theme holds only 9 different colors.
+The Theme format holds only 9 different colors.
 
 - `background`, Application Background.
 - `f_high`, Foreground, high-contrast.
@@ -44,7 +44,7 @@ The theme holds only 9 different colors.
 
 ## The Theme Format
 
-The theme file format is a SVG file. The [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) loader will look for colors found in the element's `id` attributes. **Save the image on your computer and drag it** over the application window to install it.
+The Theme file format is a SVG file. The [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) loader will look for colors found in the element's `id` attributes. **Save the image on your computer and drag it** over the application window to install it.
 
 ### Example
 
