@@ -9,10 +9,10 @@
   <body>
     <div class='wrapper'>
       <table>
-        <tr><td class='f_high'>hello</td><td class='b_low f_high'>hello</td><td class='b_med f_high'>hello</td><td class='b_high f_high'>hello</td></tr>
-        <tr><td class='f_med'>hello</td> <td class='b_low f_med'>hello</td> <td class='b_med f_med'>hello</td> <td class='b_high f_med'>hello</td></tr>
-        <tr><td class='f_low'>hello</td> <td class='b_low f_low'>hello</td> <td class='b_med f_low'>hello</td> <td class='b_high f_low'>hello</td></tr>
-        <tr><td class='f_inv'>hello</td> <td class='b_low f_inv'>hello</td> <td class='b_med f_inv'>hello</td> <td class='b_high f_inv'>hello</td></tr>
+        <tr><td class='bg f_high'>bg f_high</td><td class='b_low f_high'>b_low f_high</td><td class='b_med f_high'>b_med f_high</td><td class='b_high f_high'>b_high f_high</td></tr>
+        <tr><td class='bg f_med'>bg f_med</td>  <td class='b_low f_med'>b_low f_med</td>  <td class='b_med f_med'>b_med f_med</td>  <td class='b_high f_med'>b_high f_med</td></tr>
+        <tr><td class='bg f_low'>bg f_low</td>  <td class='b_low f_low'>b_low f_low</td>  <td class='b_med f_low'>b_med f_low</td>  <td class='b_high f_low'>b_high f_low</td></tr>
+        <tr><td class='b_inv f_inv'>b_inv f_inv</td></tr>
       </table>
     </div>
     <pre id='print'></pre>
@@ -27,15 +27,19 @@
         let html = ""
         let count = 0
         for(let fid in theme.active){
-          if(fid.substr(0,1) != "f"){ continue; }
+          if(fid.substr(0,1) != "f" || fid.indexOf("_inv") > -1){ continue; }
           let fc = theme.active[fid]
           for(let bid in theme.active){
-            if(bid.substr(0,1) != "b"){ continue; }
+            if(bid.substr(0,1) != "b" || bid.indexOf("_inv") > -1){ continue; }
             let bc = theme.active[bid]
             if(fc != bc){ continue; }
             html += `<b>${fid}</b> ${bid} <i>${bc}</i>\n`
             count += 1
           }
+        }
+        if(theme.active.f_inv == theme.active.b_inv){
+          html += `<b>f_inv</b> b_inv <i>${theme.active.f_inv}</i>\n`
+          count += 1
         }
         el.innerHTML = html+`\n<i>${count} conflicts</i>`;
       }

@@ -1,4 +1,5 @@
 body { background:var(--background) !important }
+.bg { background:var(--background) !important }
 .f_high { color:var(--f_high) !important; stroke:var(--f_high) !important }
 .f_med { color:var(--f_med) !important ; stroke:var(--f_med) !important }
 .f_low { color:var(--f_low) !important ; stroke:var(--f_low) !important }
@@ -8,6 +9,7 @@ body { background:var(--background) !important }
 .b_low { background:var(--b_low) !important ; fill:var(--b_low) !important }
 .b_inv { background:var(--b_inv) !important ; fill:var(--b_inv) !important }
 
+table tr th { color:var(--f_high) !important;  }
 pre { color:var(--f_high) !important; }
 pre b { color:var(--f_med) !important; }
 pre i { color:var(--f_low) !important; }
