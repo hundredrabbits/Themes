@@ -6,7 +6,7 @@
   <circle cx='56' cy='24' r='8' id='f_low' fill='#66606b'></circle>
   <circle cx='72' cy='24' r='8' id='f_inv' fill='#000000'></circle>
   <!-- Background -->
-  <circle cx='24' cy='40' r='8' id='b_high' fill='#ffffff'></circle>
+  <circle cx='24' cy='40' r='8' id='b_high' fill='#eeeeee'></circle>
   <circle cx='40' cy='40' r='8' id='b_med' fill='#5f5353'></circle>
   <circle cx='56' cy='40' r='8' id='b_low' fill='#47424a'></circle>
   <circle cx='72' cy='40' r='8' id='b_inv' fill='#e47464'></circle>
