@@ -89,6 +89,7 @@ The theme file format is a SVG file. The [theme.js](https://github.com/hundredra
 - [Left](https://github.com/hundredrabbits/Left), writing tool.
 - [Dotgrid](https://github.com/hundredrabbits/Dotgrid), vector tool.
 - [Donsol](https://github.com/hundredrabbits/Donsol), card game.
+- [Pico](https://github.com/hundredrabbits/Pico), programing language.
 
 This collection may also be used with
 [Tape](https://aeriform.itch.io/tape) by Aeriform.
