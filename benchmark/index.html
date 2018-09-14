@@ -33,11 +33,11 @@
             if(bid.substr(0,1) != "b"){ continue; }
             let bc = theme.active[bid]
             if(fc != bc){ continue; }
-            html += `<b>${fid}</b>(${fc}) -> ${bid}(${bc})\n`
+            html += `<b>${fid}</b> ${bid} <i>${bc}</i>\n`
             count += 1
           }
         }
-        el.innerHTML = html+`\n${count} conflicts`;
+        el.innerHTML = html+`\n<i>${count} conflicts</i>`;
       }
     </script>
   </body>
