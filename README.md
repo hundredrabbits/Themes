@@ -48,7 +48,7 @@ The theme file format is a SVG file. The [theme.js](https://github.com/hundredra
 
 ### Example
 
-![mahou](themes/mahou.svg)
+![apollo](themes/apollo.svg)
 
 ### Content
 
@@ -73,7 +73,7 @@ The theme file format is a SVG file. The [theme.js](https://github.com/hundredra
 
 ### Dark
 
-![apollo](themes/apollo.svg) ![ramma](themes/ramma.svg) ![battlestation](themes/battlestation.svg) ![deuveir](themes/deuveir.svg) ![lotus](themes/lotus.svg)
+![apollo](themes/apollo.svg) ![pico](themes/pico.svg) ![battlestation](themes/battlestation.svg) ![soyuz](themes/soyuz.svg) ![lotus](themes/lotus.svg)
 
 ### Light
 
@@ -81,7 +81,13 @@ The theme file format is a SVG file. The [theme.js](https://github.com/hundredra
 
 ### Color
 
-![mahou](themes/mahou.svg) ![pico8](themes/pico8.svg) ![frameio](themes/frameio.svg) ![berry](themes/berry.svg) ![seaweed](themes/seaweed.svg)
+![mahou](themes/mahou.svg) ![pico8](themes/pico8.svg) ![frameio](themes/frameio.svg) ![berry](themes/berry.svg) ![commodore](themes/commodore.svg)
+
+### Default
+
+Included within `theme.js`.
+
+![noir](themes/noir.svg) ![pale](themes/pale.svg)
 
 ## Supported Applications
 
