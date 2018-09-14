@@ -71,7 +71,7 @@ The theme file format is a SVG file. The [theme.js](https://github.com/hundredra
 
 ## Collection
 
-| ![mahou](themes/mahou.svg) | ![apollo](themes/apollo.svg) | ![lotus](themes/lotus.svg) |
+![mahou](themes/mahou.svg) ![apollo](themes/apollo.svg) ![lotus](themes/lotus.svg)
 
 ## Supported Applications
 
