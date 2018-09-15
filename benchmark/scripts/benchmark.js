@@ -12,7 +12,7 @@ function Benchmark()
         if(bid.substr(0,1) != "b" || bid.indexOf("_inv") > -1){ continue; }
         let bc = theme.active[bid]
         let rating = new Color(fc).contrast(new Color(bc));
-        if(rating < 3){
+        if(rating < 1.5){
           html += `Low contrast(${rating.toFixed(2)}): <b>${fid}</b> ${bid} <i>${bc}</i>\n`  
         }
         count += 1
