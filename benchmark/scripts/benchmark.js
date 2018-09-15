@@ -2,14 +2,14 @@ function Benchmark()
 {
   this.matches = function()
   {
-    var a = [{id:`f_inv:b_inv`,fc:theme.active.f_inv,bc:theme.active.b_inv}]
+    var a = [{id:`b_inv:f_inv`,fc:theme.active.f_inv,bc:theme.active.b_inv}]
     for(let fid in theme.active){
       if(fid.substr(0,1) != "f" || fid.indexOf("_inv") > -1){ continue; }
       let fc = theme.active[fid]
       for(let bid in theme.active){
         if(bid.substr(0,1) != "b" || bid.indexOf("_inv") > -1){ continue; }
         let bc = theme.active[bid]
-        a.push({id:`${fid}:${bid}`,fc:fc,bc:bc})
+        a.push({id:`${bid}:${fid}`,fc:fc,bc:bc})
       }
     }
     return a;
