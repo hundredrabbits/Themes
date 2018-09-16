@@ -96,6 +96,7 @@ Included within `theme.js`.
 - [Dotgrid](https://github.com/hundredrabbits/Dotgrid), vector tool.
 - [Donsol](https://github.com/hundredrabbits/Donsol), card game.
 - [Pico](https://github.com/hundredrabbits/Pico), programing language.
+- [Paradise](https://github.com/hundredrabbits/Paradise), IF playground.
 
 This collection may also be used with
 [Tape](https://aeriform.itch.io/tape) by Aeriform.
