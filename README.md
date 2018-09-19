@@ -71,6 +71,8 @@ The Theme file format is a SVG file. The [theme.js](https://github.com/hundredra
 
 ## Collection
 
+Simply **drag and drop these images onto the application window**, from your desktop, to install them.
+
 ### Dark
 
 ![apollo](themes/apollo.svg) ![pico](themes/pico.svg) ![battlestation](themes/battlestation.svg) ![soyuz](themes/soyuz.svg) ![lotus](themes/lotus.svg)
