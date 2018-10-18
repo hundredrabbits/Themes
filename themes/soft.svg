@@ -1,0 +1,21 @@
+<svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+  <!-- Author: Aeriform based on Soft Era by Audrey Moon-->
+  <rect width='96' height='64'  id='background' fill='#f9f5f5'></rect>
+  <!-- Foreground -->
+  <circle cx='24' cy='24' r='8' id='f_high' fill='#968585'></circle>
+  <circle cx='40' cy='24' r='8' id='f_med' fill='#cb8dd7'></circle>
+  <circle cx='56' cy='24' r='8' id='f_low' fill='#ec57b4'></circle>
+  <circle cx='72' cy='24' r='8' id='f_inv' fill='#f9f5f5'></circle>
+  <!-- Background -->
+  <circle cx='24' cy='40' r='8' id='b_high' fill='#eeeeee'></circle>
+  <circle cx='40' cy='40' r='8' id='b_med' fill='#ffffff'></circle>
+  <circle cx='56' cy='40' r='8' id='b_low' fill='#ffffff'></circle>
+  <circle cx='72' cy='40' r='8' id='b_inv' fill='#e1698d'></circle>
+  <!-- Tape -->
+  <desc id='tape_invert' fill='true'></desc>
+  <desc id='tape_unstarted' fill='#e1698d'></desc>
+  <desc id='tape_progressing' fill='#eeaabe'></desc>
+  <desc id='tape_submitted' fill='#cb8dd7'></desc>
+  <desc id='tape_approved' fill='#ec57b4'></desc>
+  <desc id='tape_done' fill='#98c4ba'></desc>
+</svg>

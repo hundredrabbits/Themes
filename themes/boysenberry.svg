@@ -1,5 +1,5 @@
-<!-- Author: Xavoneir -->
 <svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+  <!-- Author: Xavoneir -->
   <rect width='96' height='64'  id='background' fill='#171717'></rect>
   <!-- Foreground -->
   <circle cx='24' cy='24' r='8' id='f_high' fill='#efefef'></circle>

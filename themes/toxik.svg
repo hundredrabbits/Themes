@@ -1,0 +1,21 @@
+<svg width="96px" height="64px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+  <!-- Author: Aeriform -->
+  <rect width='96' height='64' id='background' fill='#404040'></rect>
+  <!-- Foreground -->
+  <circle cx='24' cy='24' r='8' id='f_high' fill='#ccd6d6'></circle>
+  <circle cx='40' cy='24' r='8' id='f_med' fill='#ccd6d6'></circle>
+  <circle cx='56' cy='24' r='8' id='f_low' fill='#ccd6d6'></circle>
+  <circle cx='72' cy='24' r='8' id='f_inv' fill='#edeef2'></circle>
+  <!-- Background -->
+  <circle cx='24' cy='40' r='8' id='b_high' fill='#edeef2'></circle>
+  <circle cx='40' cy='40' r='8' id='b_med' fill='#464646'></circle>
+  <circle cx='56' cy='40' r='8' id='b_low' fill='#464646'></circle>
+  <circle cx='72' cy='40' r='8' id='b_inv' fill='#f16f3d'></circle>
+  <!-- Tape -->
+  <desc id='tape_invert' fill='true'></desc>
+  <desc id='tape_unstarted' fill='#ae2303'></desc>
+  <desc id='tape_progressing' fill='#b59f87'></desc>
+  <desc id='tape_submitted' fill='#4d5d93'></desc>
+  <desc id='tape_approved' fill='#f16f3d'></desc>
+  <desc id='tape_done' fill='#628037'></desc>
+</svg>
