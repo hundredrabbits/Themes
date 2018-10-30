@@ -100,10 +100,11 @@ Included within `theme.js`.
 - [Pico](https://github.com/hundredrabbits/Pico), programing language.
 - [Paradise](https://github.com/hundredrabbits/Paradise), IF playground.
 
-This collection may also be used with
-[Tape](https://aeriform.itch.io/tape) by Aeriform.
+This collection may also be used with:
+
+- [Tape](https://aeriform.itch.io/tape) by Aeriform.
+- [Memex](https://github.com/kormyen/memex) by Kormyen.
 
 ## Extras
 
 You are welcome to submit your own themes to this collection!
-
