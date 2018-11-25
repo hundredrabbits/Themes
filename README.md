@@ -75,7 +75,7 @@ Simply **drag and drop these images onto the application window**, from your des
 
 ### Dark
 
-![apollo](themes/apollo.svg) ![pico](themes/pico.svg) ![battlestation](themes/battlestation.svg) ![soyuz](themes/soyuz.svg) ![lotus](themes/lotus.svg)
+![apollo](themes/apollo.svg) ![orca](themes/orca.svg) ![battlestation](themes/battlestation.svg) ![soyuz](themes/soyuz.svg) ![lotus](themes/lotus.svg)
 
 ### Light
 
