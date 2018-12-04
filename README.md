@@ -40,7 +40,7 @@ The Theme format holds only 9 different colors.
 - `b_high`, Background, high-contrast.
 - `b_med`, Background, medium-contrast.
 - `b_low`, Background, low-contrast.
-- `f_inv`, Background, inverted.
+- `b_inv`, Background, inverted.
 
 ## The Theme Format
 
