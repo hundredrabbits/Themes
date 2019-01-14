@@ -69,9 +69,9 @@ The Theme file format is a SVG file. The [theme.js](https://github.com/hundredra
 </svg>
 ```
 
-## Collection
+## Installation
 
-Simply **drag and drop these images onto the application window**, from your desktop, to install them.
+Simply download these SVG files, and **drag and drop them onto the application window**, to install them.
 
 ### Dark
 
