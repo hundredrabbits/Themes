@@ -97,6 +97,7 @@ Included within `theme.js`.
 - [Left](https://github.com/hundredrabbits/Left), writing tool.
 - [Dotgrid](https://github.com/hundredrabbits/Dotgrid), vector tool.
 - [Donsol](https://github.com/hundredrabbits/Donsol), card game.
+- [Pilot](https://github.com/hundredrabbits/Pilot), synthetiser.
 - [Orca](https://github.com/hundredrabbits/Orca), programing language.
 - [Paradise](https://github.com/hundredrabbits/Paradise), IF playground.
 
