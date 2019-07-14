@@ -93,13 +93,14 @@ Included within `theme.js`.
 
 ## Supported Applications
 
-- [Marabu](https://github.com/hundredrabbits/Marabu), music tool.
-- [Left](https://github.com/hundredrabbits/Left), writing tool.
 - [Dotgrid](https://github.com/hundredrabbits/Dotgrid), vector tool.
-- [Donsol](https://github.com/hundredrabbits/Donsol), card game.
-- [Pilot](https://github.com/hundredrabbits/Pilot), synthetiser.
+- [Ronin](https://github.com/hundredrabbits/Ronin), pixel tool.
 - [Orca](https://github.com/hundredrabbits/Orca), programing language.
+- [Left](https://github.com/hundredrabbits/Left), writing tool.
+- [Marabu](https://github.com/hundredrabbits/Marabu), music tool.
+- [Donsol](https://github.com/hundredrabbits/Donsol), card game.
 - [Paradise](https://github.com/hundredrabbits/Paradise), IF playground.
+- [Pilot](https://github.com/hundredrabbits/Pilot), synthetiser.
 
 This collection may also be used with:
 
