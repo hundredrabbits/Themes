@@ -107,6 +107,7 @@ This collection may also be used with:
 - [Tape](https://aeriform.itch.io/tape) by Aeriform.
 - [Memex](https://github.com/kormyen/memex) by Kormyen.
 - [Autograph](https://github.com/jameschip/Autograph) by James Chip
+- [Dot Matrix](https://github.com/lainsce/dot-matrix) by Lains
 
 ## Extras
 
