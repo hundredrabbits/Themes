@@ -101,6 +101,7 @@ Included within `theme.js`.
 - [Donsol](https://github.com/hundredrabbits/Donsol), card game.
 - [Paradise](https://github.com/hundredrabbits/Paradise), IF playground.
 - [Pilot](https://github.com/hundredrabbits/Pilot), synthetiser.
+- [Verreciel](https://github.com/hundredrabbits/Verreciel), space game.
 
 This collection may also be used with:
 
