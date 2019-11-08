@@ -10,3 +10,4 @@
   <circle cx='40' cy='40' r='8' id='b_med' fill='#778899'></circle>
   <circle cx='56' cy='40' r='8' id='b_low' fill='#F8F8FF'></circle>
   <circle cx='72' cy='40' r='8' id='b_inv' fill='#6B8E23'></circle>
+</svg>
