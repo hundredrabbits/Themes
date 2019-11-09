@@ -25,27 +25,39 @@
           <circle cx='72' cy='40' r='8' id='b_inv' style='fill:var(--b_inv)'></circle>
           <rect width='96' height='64' style='stroke:var(--b_low); fill:none'></rect>
       </svg>
+      <div id='distribution'>
+        <div id='dis_f'>
+          <div id='dis_f_high'></div>
+          <div id='dis_f_med'></div>
+          <div id='dis_f_low'></div>
+        </div>
+        <div id='dis_b'>
+          <div id='dis_b_high'></div>
+          <div id='dis_b_med'></div>
+          <div id='dis_b_low'></div>
+        </div>
+      </div>
       <h1 id='score' class='f_med'>Score</h1>
       <table>
         <tr>
-          <td>
+          <th>
             <span class='f_low'></span>
-          </td>
-          <td>
+          </th>
+          <th>
             <span class='f_low'>f_high</span>
-          </td>
-          <td>
+          </th>
+          <th>
             <span class='f_low'>f_med</span>
-          </td>
-          <td>
+          </th>
+          <th>
             <span class='f_low'>f_low</span>
-          </td>
+          </th>
         </tr>
         <tr>
           <!-- bg -->
-          <td>
+          <th>
             <span class='f_low'>background</span>
-          </td>
+          </th>
           <td class='bg f_high'>
             <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
               <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_high)'></circle>
@@ -67,9 +79,9 @@
         </tr>
         <!-- low -->
         <tr>
-          <td>
+          <th>
             <span class='f_low'>b_low</span>
-          </td>
+          </th>
           <td class='b_low f_high'>
             <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
               <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_high)'></circle>
@@ -90,9 +102,9 @@
           </td>
         <!-- med -->
         <tr>
-          <td>
+          <th>
             <span class='f_low'>b_med</span>
-          </td>
+          </th>
           <td class='b_med f_high'>
             <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
               <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_high)'></circle>
@@ -114,9 +126,9 @@
         </tr>
         <!-- high -->
         <tr>
-          <td>
+          <th>
             <span class='f_low'>b_high</span>
-          </td>
+          </th>
           <td class='b_high f_high'>
             <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
               <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_high)'></circle>
@@ -138,9 +150,9 @@
         </tr>
         <!-- inv -->
         <tr>
-          <td>
+          <th>
             <span class='f_low'>b_inv</span>
-          </td>
+          </th>
           <td class='b_inv f_inv'>
             <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
               <circle cx='8' cy='8' r='8' id='f_inv' style='fill:var(--f_inv)'></circle>

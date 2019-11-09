@@ -44,7 +44,6 @@ function Benchmark () {
     }
 
     // Order
-
     const fhigh = new Color(theme.active.f_high).contrast(new Color(theme.active.background))
     const fmed = new Color(theme.active.f_med).contrast(new Color(theme.active.background))
     const flow = new Color(theme.active.f_low).contrast(new Color(theme.active.background))
@@ -56,6 +55,17 @@ function Benchmark () {
     if (fhigh < fmed) { logs.push('flip f_high with f_med') }
     if (bmed < blow) { logs.push('flip b_med with b_low') }
     if (bhigh < bmed) { logs.push('flip b_high with b_med') }
+
+    // Distribution
+    const fsum = fhigh + fmed + flow
+    document.getElementById('dis_f_high').style.width = `${((fhigh / fsum) * 100).toFixed(2)}%`
+    document.getElementById('dis_f_med').style.width = `${((fmed / fsum) * 100).toFixed(2)}%`
+    document.getElementById('dis_f_low').style.width = `${((flow / fsum) * 100).toFixed(2)}%`
+
+    const bsum = bhigh + bmed + blow
+    document.getElementById('dis_b_high').style.width = `${((bhigh / bsum) * 100).toFixed(2)}%`
+    document.getElementById('dis_b_med').style.width = `${((bmed / bsum) * 100).toFixed(2)}%`
+    document.getElementById('dis_b_low').style.width = `${((blow / bsum) * 100).toFixed(2)}%`
 
     const perc = (score / (this.matches().length * 5)) * 100
     const cat = errors > 0 ? 'fix errors' : perc === 100 ? 'perfect' : perc > 80 ? 'good' : perc > 75 ? 'average' : 'bad'
