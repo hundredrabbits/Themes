@@ -1,0 +1,8 @@
+body { font-size:14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:30px; transition: background-color 500ms;}
+body svg { margin:0px auto 30px; display: block; }
+table { margin:0px auto 30px; }
+table tr td { padding:5px 10px; transition: background-color 250ms, color 250ms; font-weight: bold; font-size:12px; line-height: 16px; position: relative; padding-left:32px;}
+table tr td svg { stroke:none; display: inline-block; margin:0px 15px 0px 0px; position: absolute; left:8px;}
+table tr td span {  display: inline-block; }
+#print { font-family: courier; font-size:12px; padding:5px 10px; }
+#print b { font-weight: bold }

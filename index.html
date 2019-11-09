@@ -1,0 +1,193 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="editor/scripts/color.js"></script>
+    <script type="text/javascript" src="editor/scripts/benchmark.js"></script>
+    <script type="text/javascript" src="editor/scripts/lib/theme.js"></script>
+    <link rel="stylesheet" type="text/css" href="editor/links/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="editor/links/main.css"/>
+    <link rel="stylesheet" type="text/css" href="editor/links/theme.css"/>    
+    <title>Theme Benchmark</title>
+  </head>
+  <body>
+    <svg width="400px" height="136px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+      <g transform='translate(1,1)'>
+        <rect width='96' height='64' id='background' style='fill:var(--background)'></rect>
+        <!-- Foreground -->
+        <circle cx='24' cy='24' r='8' id='f_high' style='fill:var(--f_high)'></circle>
+        <circle cx='40' cy='24' r='8' id='f_med' style='fill:var(--f_med)'></circle>
+        <circle cx='56' cy='24' r='8' id='f_low' style='fill:var(--f_low)'></circle>
+        <circle cx='72' cy='24' r='8' id='f_inv' style='fill:var(--f_inv)'></circle>
+        <!-- Background -->
+        <circle cx='24' cy='40' r='8' id='b_high' style='fill:var(--b_high)'></circle>
+        <circle cx='40' cy='40' r='8' id='b_med' style='fill:var(--b_med)'></circle>
+        <circle cx='56' cy='40' r='8' id='b_low' style='fill:var(--b_low)'></circle>
+        <circle cx='72' cy='40' r='8' id='b_inv' style='fill:var(--b_inv)'></circle>
+        <rect width='96' height='64' style='stroke:var(--b_low); fill:none'></rect>
+      </g>
+      <g transform='translate(128,1)'>
+        <rect x='8' y='8' width='32' height='104' id='background' style='fill:var(--background)'></rect>
+        <rect x='40' y='8' width='32' height='104' id='background' style='fill:var(--b_high)'></rect>
+        <rect x='72' y='8' width='32' height='104' id='background' style='fill:var(--b_med)'></rect>
+        <rect x='104' y='8' width='32' height='104' id='background' style='fill:var(--b_low)'></rect>
+        <rect x='136' y='8' width='32' height='104' id='background' style='fill:var(--b_inv)'></rect>
+        <!-- Foreground -->
+        <circle cx='24' cy='24' r='8' id='f_high' style='fill:var(--f_high)'></circle>
+        <circle cx='24' cy='48' r='8' id='f_med' style='fill:var(--f_med)'></circle>
+        <circle cx='24' cy='72' r='8' id='f_low' style='fill:var(--f_low)'></circle>
+        <circle cx='24' cy='96' r='8' id='f_inv' style='fill:var(--f_inv)'></circle>
+        <!-- Foreground -->
+        <circle cx='56' cy='24' r='8' id='f_high' style='fill:var(--f_high)'></circle>
+        <circle cx='56' cy='48' r='8' id='f_med' style='fill:var(--f_med)'></circle>
+        <circle cx='56' cy='72' r='8' id='f_low' style='fill:var(--f_low)'></circle>
+        <circle cx='56' cy='96' r='8' id='f_inv' style='fill:var(--f_inv)'></circle>
+        <circle cx='88' cy='24' r='8' id='f_high' style='fill:var(--f_high)'></circle>
+        <circle cx='88' cy='48' r='8' id='f_med' style='fill:var(--f_med)'></circle>
+        <circle cx='88' cy='72' r='8' id='f_low' style='fill:var(--f_low)'></circle>
+        <circle cx='88' cy='96' r='8' id='f_inv' style='fill:var(--f_inv)'></circle>
+        <circle cx='120' cy='24' r='8' id='f_high' style='fill:var(--f_high)'></circle>
+        <circle cx='120' cy='48' r='8' id='f_med' style='fill:var(--f_med)'></circle>
+        <circle cx='120' cy='72' r='8' id='f_low' style='fill:var(--f_low)'></circle>
+        <circle cx='120' cy='96' r='8' id='f_inv' style='fill:var(--f_inv)'></circle>
+        <circle cx='152' cy='24' r='8' id='f_high' style='fill:var(--f_high)'></circle>
+        <circle cx='152' cy='48' r='8' id='f_med' style='fill:var(--f_med)'></circle>
+        <circle cx='152' cy='72' r='8' id='f_low' style='fill:var(--f_low)'></circle>
+        <circle cx='152' cy='96' r='8' id='f_inv' style='fill:var(--f_inv)'></circle>
+        <rect width='176' height='120' style='stroke:var(--b_low); fill:none'></rect>
+      </g>
+      <line x1='97' y1='65' x2='128' y2='121' style='stroke:var(--b_low); fill:none' />
+    </svg>
+     <div id='benchmark'>
+      <table>
+        <tr>
+          <!-- bg -->
+          <td class='bg f_high'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_high)'></circle>
+            </svg>
+            <span id='background_f_high'></span>
+          </td>
+          <td class='bg f_high'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_med)'></circle>
+            </svg>
+            <span id='background_f_med'></span>
+          </td>
+          <td class='bg f_high'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_low)'></circle>
+            </svg>
+            <span id='background_f_low'></span>
+          </td>
+          <td class='bg f_high'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_inv)'></circle>
+            </svg>
+            <span id='background_f_inv'></span>
+          </td>
+        </tr>
+        <!-- low -->
+
+        <tr>
+          <td class='b_low f_high'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_high)'></circle>
+            </svg>
+            <span id='b_low_f_high'></span>
+          </td>
+          <td class='b_low f_high'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_med)'></circle>
+            </svg>
+            <span id='b_low_f_med'></span>
+          </td>
+          <td class='b_low f_high'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_low)'></circle>
+            </svg>
+            <span id='b_low_f_low'></span>
+          </td>
+          <td class='b_low f_high'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_inv)'></circle>
+            </svg>
+            <span id='b_low_f_inv'></span>
+          </td>
+        <!-- med -->
+        <tr>
+          <td class='b_med f_high'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_high)'></circle>
+            </svg>
+            <span id='b_med_f_high'></span>
+          </td>
+          <td class='b_med f_high'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_med)'></circle>
+            </svg>
+            <span id='b_med_f_med'></span>
+          </td>
+          <td class='b_med f_high'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_low)'></circle>
+            </svg>
+            <span id='b_med_f_low'></span>
+          </td>
+          <td class='b_med f_high'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_inv)'></circle>
+            </svg>
+            <span id='b_med_f_inv'></span>
+          </td>
+        </tr>
+        <!-- high -->
+        <tr>
+          <td class='b_high f_high'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_high)'></circle>
+            </svg>
+            <span id='b_high_f_high'></span>
+          </td>
+          <td class='b_high f_high'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_med)'></circle>
+            </svg>
+            <span id='b_high_f_med'></span>
+          </td>
+          <td class='b_high f_high'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_low)'></circle>
+            </svg>
+            <span id='b_high_f_low'></span>
+          </td>
+          <td class='b_high f_high'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_inv)'></circle>
+            </svg>
+            <span id='b_high_f_inv'></span>
+          </td>
+        </tr>
+        <!-- inv -->
+        <tr>
+          <td class='b_inv f_inv'>
+            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1">
+              <circle cx='8' cy='8' r='8' id='f_high' style='fill:var(--f_high)'></circle>
+            </svg>
+            <span id='b_inv_f_inv'></span>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <pre id='print'>
+      
+    </pre>
+    <script type="text/javascript">
+      'use strict'
+      const bench = new Benchmark()
+      const theme = new Theme()
+      theme.install(document.body)
+      theme.start()
+      theme.onLoad = bench.refresh()
+    </script>
+  </body>
+</html>
