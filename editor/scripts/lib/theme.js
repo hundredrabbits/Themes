@@ -10,14 +10,14 @@ function Theme (client) {
 
   this.active = {}
   this.default = {
-    background: '#eee',
-    f_high: '#000',
-    f_med: '#999',
-    f_low: '#ccc',
-    f_inv: '#000',
-    b_high: '#000',
-    b_med: '#888',
-    b_low: '#aaa',
+    background: '#eeeeee',
+    f_high: '#000000',
+    f_med: '#999999',
+    f_low: '#cccccc',
+    f_inv: '#000000',
+    b_high: '#000000',
+    b_med: '#888888',
+    b_low: '#aaaaaa',
     b_inv: '#ffb545'
   }
 

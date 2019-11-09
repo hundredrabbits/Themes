@@ -44,7 +44,6 @@ function Benchmark () {
     }
 
     const perc = (score / (this.matches().length * 5)) * 100
-
     const cat = errors > 0 ? 'fix errors' : perc === 100 ? 'perfect' : perc > 80 ? 'good' : perc > 75 ? 'average' : 'bad'
 
     document.getElementById('score').innerHTML = `<span style='color:var(--f_high)'>${cat}</span> ${score}/${this.matches().length * 5} <span style='color:var(--f_low)'>${perc.toFixed(1)}%</span>`
