@@ -1,13 +1,16 @@
 'use strict'
 
+/* global theme */
+/* global Color */
+
 function Benchmark () {
-  this.matches = function () {
+  this.matches = () => {
     var a = [{ id: 'b_inv_f_inv', fc: theme.active.f_inv, bc: theme.active.b_inv }]
     for (const fid in theme.active) {
-      if (fid.substr(0, 1) != 'f' || fid.indexOf('_inv') > -1) { continue }
+      if (fid.substr(0, 1) !== 'f' || fid.indexOf('_inv') > -1) { continue }
       const fc = theme.active[fid]
       for (const bid in theme.active) {
-        if (bid.substr(0, 1) != 'b' || bid.indexOf('_inv') > -1) { continue }
+        if (bid.substr(0, 1) !== 'b' || bid.indexOf('_inv') > -1) { continue }
         const bc = theme.active[bid]
         a.push({ id: `${bid}_${fid}`, fc: fc, bc: bc })
       }
@@ -15,32 +18,36 @@ function Benchmark () {
     return a
   }
 
-  this.refresh = function () {
-    console.log('refresh')
-    const el = document.getElementById('print')
-    const html = ''
-    const count = 0
-    const matches = bench.matches()
+  this.refresh = () => {
+    const logs = []
+    let score = 0
+    let errors = 0
 
-    console.log(matches)
-    for (const match of matches) {
+    for (const match of this.matches()) {
       const rating = new Color(match.fc).contrast(new Color(match.bc))
       const cell = document.getElementById(match.id)
-      cell.textContent = `${rating.toFixed(2)}`
+
+      let rune = ''
+      if (rating === 1) {
+        rune = '[X]'
+        errors += 1
+      } else if (rating < 1.25) {
+        rune = '[!]'
+        score += 1
+      } else if (rating < 2) {
+        rune = '[~]'
+        score += 2
+      } else {
+        score += 5
+      }
+      cell.innerHTML = `${rating.toFixed(2)}<span style='color:var(--f_inv)'>${rune}<span>`
     }
 
-    el.innerHTML = html
-  }
+    const perc = (score / (this.matches().length * 5)) * 100
 
-  this.log = function (id, fc, bc) {
-    let html = ''
+    const cat = errors > 0 ? 'fix errors' : perc === 100 ? 'perfect' : perc > 80 ? 'good' : perc > 75 ? 'average' : 'bad'
 
-    if (rating == 1) {
-      html += `Overlap: <b>${id}</b> <i>${bc}</i>\n`
-    } else if (rating < 1.5) {
-      html += `Low contrast(${rating.toFixed(2)}): <b>${id}</b> <i>${bc}</i>\n`
-    }
-
-    return html
+    document.getElementById('score').innerHTML = `<span style='color:var(--f_high)'>${cat}</span> ${score}/${this.matches().length * 5} <span style='color:var(--f_low)'>${perc.toFixed(1)}%</span>`
+    document.getElementById('debug').innerHTML = logs.join('\n')
   }
 }

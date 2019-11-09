@@ -15,9 +15,9 @@ function Color (hex = '#000000') {
   this.invert = { r: 255 - this.rgb.r, g: 255 - this.rgb.g, b: 255 - this.rgb.b }
 
   this.contrast = function (b) {
-    const a_lum = 0.2126 * _linear(this.r / 256) + 0.7152 * _linear(this.g / 256) + 0.0722 * _linear(this.b / 256)
-    const b_lum = 0.2126 * _linear(b.r / 256) + 0.7152 * _linear(b.g / 256) + 0.0722 * _linear(b.b / 256)
-    return a_lum > b_lum ? (a_lum + 0.05) / (b_lum + 0.05) : (b_lum + 0.05) / (a_lum + 0.05)
+    const lumA = 0.2126 * _linear(this.r / 256) + 0.7152 * _linear(this.g / 256) + 0.0722 * _linear(this.b / 256)
+    const lumB = 0.2126 * _linear(b.r / 256) + 0.7152 * _linear(b.g / 256) + 0.0722 * _linear(b.b / 256)
+    return lumA > lumB ? (lumA + 0.05) / (lumB + 0.05) : (lumB + 0.05) / (lumA + 0.05)
   }
 
   this.rgba = function () {

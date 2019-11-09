@@ -14,7 +14,7 @@ table { margin:0px auto 30px; }
 table tr td { padding:5px 10px; transition: background-color 250ms, color 250ms; font-size:11px; line-height: 20px; position: relative; padding-left:32px;}
 table tr td svg { stroke:none; display: inline-block; margin:0px 15px 0px 0px; position: absolute; left:8px; top:6px;}
 table tr td span {  display: inline-block; }
-#print { font-family: courier; font-size:12px; padding:5px 10px; }
-#print b { font-weight: bold }
+#debug { font-size: 11px }
+#score { text-align: center; margin-bottom: 30px; font-size:11px; }
 
-#benchmark { height:300px; margin:calc(50vh - 150px);}
+#benchmark { height:300px; margin:calc(50vh - 200px);}
