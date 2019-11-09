@@ -26,10 +26,10 @@ function Benchmark () {
     for (const match of this.matches()) {
       const rating = new Color(match.fc).contrast(new Color(match.bc))
       const cell = document.getElementById(match.id)
-
       let rune = ''
       if (rating === 1) {
         rune = '[X]'
+        logs.push(`Error: Overlap for ${match.fc}/${match.bc}`)
         errors += 1
       } else if (rating < 1.25) {
         rune = '[!]'
@@ -42,6 +42,20 @@ function Benchmark () {
       }
       cell.innerHTML = `${rating.toFixed(2)}<span style='color:var(--f_inv)'>${rune}<span>`
     }
+
+    // Order
+
+    const fhigh = new Color(theme.active.f_high).contrast(new Color(theme.active.background))
+    const fmed = new Color(theme.active.f_med).contrast(new Color(theme.active.background))
+    const flow = new Color(theme.active.f_low).contrast(new Color(theme.active.background))
+    const bhigh = new Color(theme.active.b_high).contrast(new Color(theme.active.background))
+    const bmed = new Color(theme.active.b_med).contrast(new Color(theme.active.background))
+    const blow = new Color(theme.active.b_low).contrast(new Color(theme.active.background))
+
+    if (fmed < flow) { logs.push('flip f_med with f_low') }
+    if (fhigh < fmed) { logs.push('flip f_high with f_med') }
+    if (bmed < blow) { logs.push('flip b_med with b_low') }
+    if (bhigh < bmed) { logs.push('flip b_high with b_med') }
 
     const perc = (score / (this.matches().length * 5)) * 100
     const cat = errors > 0 ? 'fix errors' : perc === 100 ? 'perfect' : perc > 80 ? 'good' : perc > 75 ? 'average' : 'bad'
