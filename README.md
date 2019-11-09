@@ -18,33 +18,39 @@ This repository is for the application themes and tools used across the [Hundred
 <link rel="stylesheet" type="text/css" href="links/theme.css"/>
 ```
 
-**Initiate Theme support** by adding these lines somewhere in your project. The `Theme({background:#f00,..})` class takes a default theme as param, the `.install(element,callback)` method takes an element to append the `<style>` element to, and a param for a method called when the theme has been updated.
+**Initiate Theme support** by adding these lines somewhere in your project. The `.install(element)` method takes an element to append the `<style>` tag to.
 
 ```
-let theme = new Theme();
+const theme = new Theme();
 theme.install(document.body);
 theme.start();
+```
+
+***Add a callback** once a new theme has been loaded with:
+
+```
+theme.onLoad = obj.method
 ```
 
 This will add an handler that will detect files dragged onto the project window, and append a `<style>` element to your document's body element with the theme overrides.
 
 ## Format Specs
 
-The Theme format holds only 9 different colors.
+The Theme format holds only 9 different colors, including 4 foreground colors, 4 background colors, and a global background color. Each foreground color should be readable on each background color, with the exception of the `inv` types, which are designed to be used in warnings or modals and should only overlap each other. You can test your themes online with the [Theme Benchmark](https://hundredrabbits.github.io/Themes/).
 
 - `background`, Application Background.
 - `f_high`, Foreground, high-contrast.
 - `f_med`, Foreground, medium-contrast.
 - `f_low`, Foreground, low-contrast.
-- `f_inv`, Foreground, inverted.
+- `f_inv`, Foreground, for modals and overlays.
 - `b_high`, Background, high-contrast.
 - `b_med`, Background, medium-contrast.
 - `b_low`, Background, low-contrast.
-- `b_inv`, Background, inverted.
+- `b_inv`, Background, for modals and overlays.
 
 ## The Theme Format
 
-The Theme file format is a SVG file. The [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) loader will look for colors found in the element's `id` attributes. **Save the image on your computer and drag it** over the application window to install it.
+The Theme file format is a simple SVG file. The [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) loader will look for colors found in the element's `id` attributes. **Save the image on your computer and drag it** over the application window to install it.
 
 ### Example
 
