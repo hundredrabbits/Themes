@@ -21,6 +21,9 @@ function Theme (client) {
     b_inv: '#ffb545'
   }
 
+  // Callbacks
+  this.onLoad = () => {}
+
   this.install = (host = document.body) => {
     window.addEventListener('dragover', this.drag)
     window.addEventListener('drop', this.drop)

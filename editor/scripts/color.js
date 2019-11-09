@@ -1,3 +1,5 @@
+'use strict'
+
 function Color (hex = '#000000') {
   this.hex = hex
 

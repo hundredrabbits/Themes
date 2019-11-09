@@ -16,6 +16,7 @@ function Benchmark () {
   }
 
   this.refresh = function () {
+    console.log('refresh')
     const el = document.getElementById('print')
     const html = ''
     const count = 0
@@ -23,9 +24,9 @@ function Benchmark () {
 
     console.log(matches)
     for (const match of matches) {
+      const rating = new Color(match.fc).contrast(new Color(match.bc))
       const cell = document.getElementById(match.id)
-      console.log(cell, match.id)
-      // cell.textContent = '0.0'
+      cell.textContent = `${rating.toFixed(2)}`
     }
 
     el.innerHTML = html
@@ -33,8 +34,6 @@ function Benchmark () {
 
   this.log = function (id, fc, bc) {
     let html = ''
-
-    const rating = new Color(fc).contrast(new Color(bc))
 
     if (rating == 1) {
       html += `Overlap: <b>${id}</b> <i>${bc}</i>\n`

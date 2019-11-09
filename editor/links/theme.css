@@ -8,8 +8,3 @@ body { background:var(--background) !important }
 .b_med { background:var(--b_med) !important ; fill:var(--b_med) !important }
 .b_low { background:var(--b_low) !important ; fill:var(--b_low) !important }
 .b_inv { background:var(--b_inv) !important ; fill:var(--b_inv) !important }
-
-table tr th { color:var(--f_high) !important;  }
-pre { color:var(--f_high) !important; }
-pre b { color:var(--f_med) !important; }
-pre i { color:var(--f_low) !important; }
