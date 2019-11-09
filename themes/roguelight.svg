@@ -3,11 +3,11 @@
   <!-- Foreground -->
   <circle cx='24' cy='24' r='8' id='f_high' fill='#f5f5d4'></circle>
   <circle cx='40' cy='24' r='8' id='f_med' fill='#4a6b83'></circle>
-  <circle cx='56' cy='24' r='8' id='f_low' fill='#5a6970'></circle>
+  <circle cx='56' cy='24' r='8' id='f_low' fill='#70838c'></circle>
   <circle cx='72' cy='24' r='8' id='f_inv' fill='#352b31'></circle>
   <!-- Background -->
-  <circle cx='24' cy='40' r='8' id='b_high' fill='#f5f5d4'></circle>
-  <circle cx='40' cy='40' r='8' id='b_med' fill='#96cf85'></circle>
-  <circle cx='56' cy='40' r='8' id='b_low' fill='#5a6970'></circle>
-  <circle cx='72' cy='40' r='8' id='b_inv' fill='#96cf85'></circle>
+  <circle cx='24' cy='40' r='8' id='b_high' fill='#96cf85'></circle>
+  <circle cx='40' cy='40' r='8' id='b_med' fill='#5a6970'></circle>
+  <circle cx='56' cy='40' r='8' id='b_low' fill='#4a3b44'></circle>
+  <circle cx='72' cy='40' r='8' id='b_inv' fill='#f5f5d4'></circle>
 </svg>
