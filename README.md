@@ -26,17 +26,21 @@ theme.install(document.body);
 theme.start();
 ```
 
-***Add a callback** once a new theme has been loaded with:
+**Trigger a function** once a new theme has been loaded:
 
 ```
-theme.onLoad = obj.method
+theme.onLoad = callback
 ```
 
-This will add an handler that will detect files dragged onto the project window, and append a `<style>` element to your document's body element with the theme overrides.
+The callback will fire when a new theme has loaded, perfect to connect a refresh method and update your application with the new colors.
 
 ## Format Specs
 
-The Theme format holds only 9 different colors, including 4 foreground colors, 4 background colors, and a global background color. Each foreground color should be readable on each background color, with the exception of the `inv` types, which are designed to be used in warnings or modals and should only overlap each other. You can test your themes online with the [Theme Benchmark](https://hundredrabbits.github.io/Themes/).
+The Theme format holds 9 different colors, including 4 foreground colors, 4 background colors, and a global background color. Each foreground color should be readable on every background color, with the exception of the `inv` types, which are designed to be used in warnings or modals and should only overlap each other. 
+
+A variable's contrast should be seen as an offset to the global background color, so instance, `f_high` represents a high contrast color against the global `background`, and so does `b_high`, representing a highly contrasted color against the global `background`.
+
+You can test your themes online with the [Theme Benchmark](https://hundredrabbits.github.io/Themes/).
 
 - `background`, Application Background.
 - `f_high`, Foreground, high-contrast.
