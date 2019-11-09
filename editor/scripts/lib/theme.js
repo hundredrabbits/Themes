@@ -12,12 +12,12 @@ function Theme (client) {
   this.default = {
     background: '#eeeeee',
     f_high: '#000000',
-    f_med: '#999999',
-    f_low: '#cccccc',
+    f_med: '#666666',
+    f_low: '#888888',
     f_inv: '#000000',
-    b_high: '#000000',
-    b_med: '#888888',
-    b_low: '#aaaaaa',
+    b_high: '#ffffff',
+    b_med: '#cccccc',
+    b_low: '#dddddd',
     b_inv: '#ffb545'
   }
 
