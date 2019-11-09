@@ -83,13 +83,9 @@ Simply download these SVG files, and **drag and drop them onto the application w
 
 ### Color
 
-![mahou](themes/mahou.svg) ![pico8](themes/pico8.svg) ![frameio](themes/frameio.svg) ![berry](themes/berry.svg) ![commodore](themes/commodore.svg)
+![mahou](themes/mahou.svg) ![pico8](themes/pico8.svg) ![frameio](themes/frameio.svg) ![berry](themes/berry.svg) ![roguelight](themes/roguelight.svg)
 
-### Default
-
-Included within `theme.js`.
-
-![noir](themes/noir.svg) ![pale](themes/pale.svg)
+See the full collection [here](https://github.com/hundredrabbits/Themes/tree/master/themes).
 
 ## Supported Applications
 
