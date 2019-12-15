@@ -124,4 +124,4 @@ You are welcome to submit your own themes to this collection!
 
 Themes can be generated from your wallpaper’s colors with [pywal](https://github.com/dylanaraps/pywal).
 
-Add [pywal.svg](themes/pywal.svg) to `~/.config/wal/templates` and run `wal`. The generated theme will be located in `~/.cache/wal/`.
+Add [pywal.svg](themes/extras/pywal.svg) to `~/.config/wal/templates` and run `wal`. The generated theme will be located in `~/.cache/wal/`.
