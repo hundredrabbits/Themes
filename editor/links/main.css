@@ -11,8 +11,8 @@
 body { font-size:14px; font-family: 'input_mono_medium'; font-weight:normal; padding:30px; transition: background-color 500ms; overflow: hidden;}
 body svg { margin:0px auto 30px; display: block; }
 table { margin:0px auto 30px; width:100%; }
-table tr td { padding:5px 10px; transition: background-color 250ms, color 250ms; font-size:11px; line-height: 20px; position: relative; padding-left:32px; }
-table tr th { padding:5px 10px;font-size:11px; line-height: 20px; position: relative; text-align: left}
+table tr td { padding:5px 10px; transition: background-color 250ms, color 250ms; font-size:11px; line-height: 20px; position: relative; padding-left:32px; width:25%;}
+table tr th { padding:5px 10px;font-size:11px; line-height: 20px; position: relative; text-align: left; width:25%;}
 table tr td svg { stroke:none; display: inline-block; margin:0px 15px 0px 0px; position: absolute; left:8px; top:6px;}
 table tr td span {  display: inline-block; }
 #debug { font-size: 11px }

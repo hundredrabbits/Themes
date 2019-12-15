@@ -11,12 +11,12 @@ function Theme (client) {
   this.active = {}
   this.default = {
     background: '#eeeeee',
-    f_high: '#000000',
-    f_med: '#666666',
-    f_low: '#888888',
-    f_inv: '#000000',
-    b_high: '#cccccc',
-    b_med: '#dddddd',
+    f_high: '#0a0a0a',
+    f_med: '#4a4a4a',
+    f_low: '#6a6a6a',
+    f_inv: '#111111',
+    b_high: '#a1a1a1',
+    b_med: '#c1c1c1',
     b_low: '#ffffff',
     b_inv: '#ffb545'
   }
