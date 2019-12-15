@@ -97,6 +97,12 @@ Simply download these SVG files, and **drag and drop them onto the application w
 
 See the full collection [here](https://github.com/hundredrabbits/Themes/tree/master/themes).
 
+### Generate themes with [pywal](https://github.com/dylanaraps/pywal)
+
+Themes can be generated from your wallpaper’s colors with [pywal](https://github.com/dylanaraps/pywal).
+
+Add [pywal.svg](themes/extras/pywal.svg) to `~/.config/wal/templates` and run `wal`. The generated theme will be located in `~/.cache/wal/`.
+
 ## Supported Applications
 
 - [Dotgrid](https://github.com/hundredrabbits/Dotgrid), vector tool.
@@ -118,10 +124,4 @@ This collection may also be used with:
 
 ## Extras
 
-You are welcome to submit your own themes to this collection!
-
-### Generate themes with [pywal](https://github.com/dylanaraps/pywal)
-
-Themes can be generated from your wallpaper’s colors with [pywal](https://github.com/dylanaraps/pywal).
-
-Add [pywal.svg](themes/extras/pywal.svg) to `~/.config/wal/templates` and run `wal`. The generated theme will be located in `~/.cache/wal/`.
+You are welcome to submit your own themes to this collection.
