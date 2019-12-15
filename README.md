@@ -119,3 +119,9 @@ This collection may also be used with:
 ## Extras
 
 You are welcome to submit your own themes to this collection!
+
+### Generate themes with [pywal](https://github.com/dylanaraps/pywal)
+
+Themes can be generated from your wallpaper’s colors with [pywal](https://github.com/dylanaraps/pywal).
+
+Add [pywal.svg](themes/extras/pywal.svg) to `~/.config/wal/templates` and run `wal`. The generated theme will be located in `~/.cache/wal/`.
