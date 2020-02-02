@@ -109,6 +109,7 @@ Add [pywal.svg](themes/extras/pywal.svg) to `~/.config/wal/templates` and run `w
 - [Ronin](https://github.com/hundredrabbits/Ronin), pixel tool.
 - [Orca](https://github.com/hundredrabbits/Orca), programing language.
 - [Left](https://github.com/hundredrabbits/Left), writing tool.
+- [Nasu](https://github.com/hundredrabbits/Nasu), spritesheet editor.
 - [Marabu](https://github.com/hundredrabbits/Marabu), music tool.
 - [Donsol](https://github.com/hundredrabbits/Donsol), card game.
 - [Paradise](https://github.com/hundredrabbits/Paradise), IF playground.
