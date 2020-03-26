@@ -1,0 +1,19 @@
+body { background:var(--background) !important; color:var(--f_med); }
+.bg { background:var(--background) !important }
+.f_high { color:var(--f_high) !important; stroke:var(--f_high) !important }
+.f_med { color:var(--f_med) !important ; stroke:var(--f_med) !important }
+.f_low { color:var(--f_low) !important ; stroke:var(--f_low) !important }
+.f_inv { color:var(--f_inv) !important ; stroke:var(--f_inv) !important }
+.b_high { background:var(--b_high) !important; fill:var(--b_high) !important }
+.b_med { background:var(--b_med) !important ; fill:var(--b_med) !important }
+.b_low { background:var(--b_low) !important ; fill:var(--b_low) !important }
+.b_inv { background:var(--b_inv) !important ; fill:var(--b_inv) !important }
+
+#debug { color:var(--f_high); }
+
+#dis_f_high { background: var(--f_high) !important }
+#dis_f_med { background: var(--f_med) !important }
+#dis_f_low { background: var(--f_low) !important }
+#dis_b_high { background: var(--b_high) !important }
+#dis_b_med { background: var(--b_med) !important }
+#dis_b_low { background: var(--b_low) !important }
