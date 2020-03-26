@@ -89,7 +89,7 @@ Simply download these SVG files, and **drag and drop them onto the application w
 
 ### Light
 
-![coal](themes/coal.svg) ![marble](themes/marble.svg) ![snow](themes/snow.svg) ![swiss](themes/swiss.svg) ![tape](themes/tape.svg)
+![coal](themes/coal.svg) ![marble](themes/marble.svg) ![snow](themes/snow.svg) ![teenage](themes/teenage.svg) ![tape](themes/tape.svg)
 
 ### Color
 
