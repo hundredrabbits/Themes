@@ -6,13 +6,13 @@ This repository is for the application themes and tools used across the [Hundred
 
 ## Setup
 
-**Install Theme support** by adding [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/scripts/lib/theme.js) to your header. 
+**Install Theme support** by adding [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/scripts/lib/theme.js) to your header. 
 
 ```
 <script type="text/javascript" src="scripts/lib/theme.js"></script>
 ```
 
-**Define Theme overrides** in a dedicated [theme.css](https://github.com/hundredrabbits/Dotgrid/blob/master/desktop/sources/links/theme.css) by adding this line to your header.
+**Define Theme overrides** in a dedicated [theme.css](https://github.com/hundredrabbits/Dotgrid/blob/master/links/theme.css) by adding this line to your header.
 
 ```
 <link rel="stylesheet" type="text/css" href="links/theme.css"/>
