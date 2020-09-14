@@ -21,7 +21,7 @@ cpos(char* s, char c)
 	return -1;
 }
 
-void
+char*
 sstr(char* src, char* dest, int from, int to)
 {
 	int i;
@@ -29,6 +29,7 @@ sstr(char* src, char* dest, int from, int to)
 	for(i = 0; i < to; i++)
 		b[i] = a[i];
 	dest[to] = '\0';
+	return dest;
 }
 
 unsigned char
@@ -69,6 +70,42 @@ scmp(char* a, char* b)
 	return 1;
 }
 
+char*
+scat(char* dest, const char* src)
+{
+	char* ptr = dest + slen(dest);
+	while(*src != '\0')
+		*ptr++ = *src++;
+	*ptr = '\0';
+	return dest;
+}
+
+int
+parse2(FILE* f)
+{
+	int i, id = 0, next = 0;
+	long theme[9];
+	char line[BUFLEN], hexs[BUFLEN], comb[1024];
+	char* ptr;
+	while(fgets(line, BUFLEN, f)) {
+		scat(comb, line);
+	}
+
+	for(i = 0; i < slen(comb); ++i) {
+		if(comb[i] != '#')
+			continue;
+		printf("%s ", sstr(comb, hexs, i, 7));
+		id++;
+	}
+
+	if(id != 9)
+		return error("Invalid theme");
+	for(i = 0; i < 9; ++i) {
+		printf("%ld ", theme[i]);
+	}
+	return 1;
+}
+
 int
 parse(FILE* f)
 {
@@ -102,5 +139,5 @@ main(int argc, char* argv[])
 			return error("Invalid input.\n");
 	} else
 		input = stdin;
-	return parse(input);
+	return parse2(input);
 }

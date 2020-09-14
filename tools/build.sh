@@ -1,18 +1,12 @@
 #!/bin/bash
 
-clang-format -i main.c
+clang-format -i themes.c
 
 # Linux
-cc -std=c89 -DDEBUG -Wall -Wpedantic -Wshadow -Wextra -Werror=implicit-int -Werror=incompatible-pointer-types -Werror=int-conversion -Wvla -g -Og -fsanitize=address -fsanitize=undefined -o main main.c
+cc -std=c89 -DDEBUG -Wall -Wpedantic -Wshadow -Wextra -Werror=implicit-int -Werror=incompatible-pointer-types -Werror=int-conversion -Wvla -g -Og -fsanitize=address -fsanitize=undefined -o themes themes.c
 
-# RPi
-# tcc -Wall main.c -o main
+# ./themes ../themes/apollo.svg
 
-# Plan9
-# pcc main.c -o main
+cat ../themes/apollo.svg | ./themes
 
-# ./main ../themes/apollo.svg
-
-cat ../themes/apollo.svg | ./main
-
-rm ./main
+rm ./themes
