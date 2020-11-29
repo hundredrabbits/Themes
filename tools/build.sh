@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -f ./themes
+
 clang-format -i themes.c
 
 # Linux
@@ -8,5 +10,3 @@ cc -std=c89 -DDEBUG -Wall -Wpedantic -Wshadow -Wextra -Werror=implicit-int -Werr
 # ./themes ../themes/apollo.svg
 
 cat ../themes/apollo.svg | ./themes
-
-rm ./themes

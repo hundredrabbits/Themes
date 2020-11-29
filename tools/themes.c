@@ -1,35 +1,13 @@
 #include <stdio.h>
 
-#define BUFLEN 256
-
 int
-slen(char* s)
+cpos(char *s, char c)
 {
-	int n = 0;
-	while(s[n] != '\0' && s[++n])
-		;
-	return n;
-}
-
-int
-cpos(char* s, char c)
-{
-	int i;
-	for(i = 0; i < slen(s); i++)
-		if(s[i] == c)
-			return i;
+	int i = 0;
+	while(s[i])
+		if(s[i++] == c)
+			return i - 1;
 	return -1;
-}
-
-char*
-sstr(char* src, char* dest, int from, int to)
-{
-	int i;
-	char *a = (char*)src + from, *b = (char*)dest;
-	for(i = 0; i < to; i++)
-		b[i] = a[i];
-	dest[to] = '\0';
-	return dest;
 }
 
 unsigned char
@@ -42,49 +20,59 @@ chex(char c)
 	return (c - '0') & 0xF;
 }
 
-unsigned long
-shex(char* s)
+int
+shex(char *s, int len)
 {
-	int i, n = 0, l = slen(s);
-	for(i = 0; i < l; ++i)
-		n |= (chex(s[i]) << ((l - i - 1) * 4));
+	int i, n = 0;
+	for(i = 0; i < len; ++i)
+		n |= (chex(s[i]) << ((len - i - 1) * 4));
 	return n;
 }
 
+char *
+sstr(char *src, char *dst, int from, int to)
+{
+	int i;
+	char *a = (char *)src + from, *b = (char *)dst;
+	for(i = 0; i < to; i++)
+		b[i] = a[i];
+	dst[to] = '\0';
+	return dst;
+}
+
 int
-error(char* name)
+error(char *name)
 {
 	printf("Error: %s\n", name);
 	return 0;
 }
 
 int
-parse(FILE* f)
+parse(FILE *f)
 {
 	int i, id = 0;
 	long theme[9];
-	char line[BUFLEN], hexs[BUFLEN];
-	while(fgets(line, BUFLEN, f)) {
+	char line[256], hexs[9][7];
+	while(fgets(line, 256, f)) {
 		int split = cpos(line, '#');
-		if(split < 0 || id > 9)
-			continue;
-		sstr(line, hexs, split, 7);
-		printf("%s ", hexs);
-		theme[id] = shex(hexs + 1);
-		id++;
+		if(split >= 0) {
+			sstr(line + split + 1, hexs[id], 0, 6);
+			theme[id++] = shex(line + split + 1, 6);
+		}
+		if(id >= 9)
+			break;
 	}
 	if(id != 9)
 		return error("Invalid theme");
-	for(i = 0; i < 9; ++i) {
-		printf("%ld ", theme[i]);
-	}
+	for(i = 0; i < 9; ++i)
+		printf("#%s = %ld\n", hexs[i], theme[i]);
 	return 1;
 }
 
 int
-main(int argc, char* argv[])
+main(int argc, char *argv[])
 {
-	FILE* input;
+	FILE *input;
 	if(argc == 2) {
 		input = fopen(argv[1], "rb");
 		if(input == NULL)
