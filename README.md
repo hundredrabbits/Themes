@@ -2,8 +2,6 @@
 
 This repository is for the application themes and tools used across the [Hundred Rabbits](http://100r.co) [Ecosystem](https://github.com/hundredrabbits). 
 
-<img src='https://raw.githubusercontent.com/hundredrabbits/Themes/master/PREVIEW.jpg' width='600'/>
-
 ## Setup
 
 **Install Theme support** by adding [theme.js](https://github.com/hundredrabbits/Dotgrid/blob/master/scripts/lib/theme.js) to your header. 
