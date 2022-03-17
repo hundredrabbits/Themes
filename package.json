@@ -1,0 +1,17 @@
+{
+  "name": "@hundredrabbits/themes",
+  "version": "1.0.0",
+  "description": "Simple Theme Framework",
+  "main": "scripts/lib/theme.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hundredrabbits/Themes.git"
+  },
+  "author": "hundredrabbits",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/hundredrabbits/Themes/issues"
+  },
+  "homepage": "https://github.com/hundredrabbits/Themes#readme"
+}
