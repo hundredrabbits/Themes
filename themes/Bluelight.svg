@@ -1,0 +1,19 @@
+<svg width="96" height="64" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect width="96" height="64" id="background" fill="hsla(220,16%,22%,1)"/>
+  <circle cx="24" cy="24" r="8" id="f_high" fill="hsla(300,60%,12%,1)"/>
+  <circle cx="40" cy="24" r="8" id="f_med" fill="hsla(178,25%,41%,1)"/>
+  <circle cx="56" cy="24" r="8" id="f_low" fill="hsla(0,0%,60%,1)"/>
+  <circle cx="72" cy="24" r="8" id="f_inv" fill="hsla(213,32%,52%,1)"/>
+  <circle cx="24" cy="40" r="8" id="b_high" fill="hsla(13,50%,60%,1)"/>
+  <circle cx="40" cy="40" r="8" id="b_med" fill="hsla(44,100%,20%,1)"/>
+  <circle cx="56" cy="40" r="8" id="b_low" fill="hsla(222,16%,28%,1)"/>
+  <circle cx="72" cy="40" r="8" id="b_inv" fill="hsla(178,25%,36%,1)"/>
+ </g>
+</svg>
