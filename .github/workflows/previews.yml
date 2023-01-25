@@ -1,0 +1,25 @@
+# A GitHub action to create a "PREVIEWS.md" file automatically with
+# a table of all of the themes from /themes/*.svg, sorted by name.
+
+name: Create-Preview
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        # Call .github/workflows/create-preview-page.py
+      - name: Create Preview
+        run: python3 .github/workflows/create-preview-page.py
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          message: "Update PREVIEWS.md"
+          add: "PREVIEWS.md"
+
+          
